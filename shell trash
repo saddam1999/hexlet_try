@@ -1,0 +1,40 @@
+mkdir -p fs/example1/subexample//directory
+mkdir -p fs/example2
+touch fs/example1/file
+touch fs/example1/subexample/file
+touch fs/example1/subexample//directory/another_file
+touch fs/example2/another_file
+
+mkdir -p parentfolder/{subfolder1,subfolder2,subfolder3}
+
+mkdir -p parentfolder/{subfolder1,subfolder2,subfolder3}// parentfolder2/{subfolder1,subfolder2,subfolder3}
+
+mkdir -p PARENT/{subfolder1,subfolder2,subfolder3}/PARENT2/{subfolder1,subfolder2,subfolder3}
+
+mkdir
+    |
+    PARENT
+    |    |
+    |    subfolder1
+    |       |
+    |       file
+    |    subfolder2
+    |    subfolder3
+    |
+    PARENT2
+    |    |
+  file
+
+
+mkdir -p fs{example1,example2}
+// создаёт папки fsexample1, fsexample2 //
+
+mkdir -p fs/example1/example2
+// папка fs содержит example1, которая содержит example2 //
+
+🌟 mkdir -p fs/{example1,example2}
+// создаёт папку fs и внутри папки example1, example2 //
+
+
+mkdir -p fs/{example1,example2}{example 1.5, example2.5}
+// аналог строки 29 //
