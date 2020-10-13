@@ -38,3 +38,33 @@ mkdir -p fs/example1/example2
 
 mkdir -p fs/{example1,example2}{example 1.5, example2.5}
 // аналог строки 29 //
+
+TERM_SESSION_ID=w0t0p1:1D055C08-F141-4AC9-B664-42AFB0D4E4B2
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.09jIdmz0QF/Listeners
+LC_TERMINAL_VERSION=3.3.12
+COLORFGBG=15;0
+ITERM_PROFILE=ViPoint
+XPC_FLAGS=0x0
+LANG=en_CA.UTF-8
+PWD=/Volumes/macOS HD
+SHELL=/bin/zsh
+TERM_PROGRAM_VERSION=3.3.12
+TERM_PROGRAM=iTerm.app
+PATH=/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin
+LC_TERMINAL=iTerm2
+COLORTERM=truecolor
+TERM=xterm-256color
+HOME=/Volumes/macOS HD
+TMPDIR=/var/folders/1p/n5x4y4xx2kddd_kjshrmvmnh0000gn/T/
+USER=knickypi
+XPC_SERVICE_NAME=0
+LOGNAME=knickypi
+ITERM_SESSION_ID=w0t0p1:1D055C08-F141-4AC9-B664-42AFB0D4E4B2
+__CF_USER_TEXT_ENCODING=0x0:0:2
+SHLVL=1
+OLDPWD=/Volumes/macOS HD
+ZSH=/Volumes/macOS HD/.oh-my-zsh
+PAGER=less
+LESS=-R
+LSCOLORS=Gxfxcxdxbxegedabagacad
+_=/usr/bin/env
