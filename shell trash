@@ -15,15 +15,14 @@ mkdir
     |
     PARENT
     |    |
-    |    subfolder1
-    |       |
-    |       file
-    |    subfolder2
-    |    subfolder3
+    |----- subfolder1
+    |      |-- file
+    |----- subfolder2
+    |----- subfolder3
     |
     PARENT2
-    |    |
-  file
+        |
+        file
 
 
 mkdir -p fs{example1,example2}
@@ -37,7 +36,7 @@ mkdir -p fs/example1/example2
 
 
 mkdir -p fs/{example1,example2}{example 1.5, example2.5}
-// аналог строки 29 //
+// аналог строки 28 //
 
 env >>
 TERM_SESSION_ID=w0t0p1:1D055C08-F141-4AC9-B664-42AFB0D4E4B2
