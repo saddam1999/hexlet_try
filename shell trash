@@ -39,6 +39,7 @@ mkdir -p fs/example1/example2
 mkdir -p fs/{example1,example2}{example 1.5, example2.5}
 // аналог строки 29 //
 
+env >>
 TERM_SESSION_ID=w0t0p1:1D055C08-F141-4AC9-B664-42AFB0D4E4B2
 SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.09jIdmz0QF/Listeners
 LC_TERMINAL_VERSION=3.3.12
@@ -68,3 +69,507 @@ PAGER=less
 LESS=-R
 LSCOLORS=Gxfxcxdxbxegedabagacad
 _=/usr/bin/env
+
+
+PS AUX >>
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver      129   4.3  0.9  7161576 155956   ??  Ss    2:26pm  50:40.79 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+_coreaudiod        142   2.4  0.8  4484112 137328   ??  Ss    2:26pm  14:58.94 /usr/sbin/coreaudiod
+knickypi          5433   1.2  1.3  5547268 210012   ??  S    10:45am   3:27.78 /Applications/Atom.app/Contents/MacOS/Atom -psn_0_1384786
+_hidd              114   1.1  0.1  4394992  11900   ??  Ss    2:26pm   5:34.38 /usr/libexec/hidd
+knickypi          6028   1.0  2.0  5751248 333896   ??  S    11:04am   3:43.72 /Applications/iTerm.app/Contents/MacOS/iTerm2
+knickypi           314   0.7  0.3  4967560  58696   ??  S     2:26pm   0:40.29 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+_mysql             108   0.7  1.6  4879840 275540   ??  Ss    2:26pm   5:21.10 /usr/local/mysql/bin/mysqld --user=_mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data --plugin-dir=/usr/local/mysql/lib/plugin --log-error=/usr/local/mysql/data/mysqld.local.err --pid-file=/usr/local/mysql/data/mysqld.local.pid --keyring-file-data=/usr/local/mysql/keyring/keyring --early-plugin-load=keyring_file=keyring_file.so --default_authentication_plugin=mysql_native_password
+knickypi          5326   0.4  2.1  6832588 350752   ??  S    10:31am  11:21.21 /Applications/Telegram.app/Contents/MacOS/Telegram
+knickypi           446   0.4  0.7  5075352 114392   ??  S     2:26pm   6:33.02 /Applications/Boom 3D.app/Contents/MacOS/Boom 3D -psn_0_184365
+knickypi          5439   0.3  2.5  5502240 411956   ??  S    10:45am   1:58.34 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --force-color-profile=srgb --disable-features=SpareRendererForSitePerProcess --service-pipe-token=15522909126472531246 --lang=en-US --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration --webview-tag --no-sandbox --no-zygote --background-color=#fff --disable-blink-features=Auxclick --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=15522909126472531246 --renderer-client-id=5 --no-v8-untrusted-code-mitigations
+knickypi          2780   0.2  0.3  5999912  51216   ??  S     5:53pm   0:32.02 /Volumes/macOS HD/Library/PreferencePanes/SwitchResX.prefPane/Contents/MacOS/SwitchResX Daemon.app/Contents/MacOS/SwitchResX Daemon -psn_0_659617
+root               241   0.1  0.1  4408244  14044   ??  S     2:26pm   0:03.97 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+root                92   0.1  0.1  4349768  11900   ??  Ss    2:26pm   0:40.38 /usr/libexec/opendirectoryd
+knickypi           330   0.1  0.1  4408592  15452   ??  S     2:26pm   0:05.24 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+knickypi          7038   0.1  1.8 106655448 298188   ??  Ss   12:31pm   0:27.80 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+knickypi           316   0.1  1.1  5296724 183184   ??  S     2:26pm   2:28.03 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+knickypi          7793   0.0  0.2  4319972  26636   ??  S     1:33pm   0:00.68 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+knickypi          7788   0.0  0.2  4319476  26988   ??  S     1:33pm   0:00.73 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+knickypi          7787   0.0  0.2  4319688  25632   ??  S     1:33pm   0:00.53 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+knickypi          7750   0.0  0.3 89320020  44276   ??  Ss    1:31pm   0:00.33 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+knickypi          7729   0.0  1.0 89432404 168552   ??  Ss    1:28pm   0:04.94 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+knickypi          7646   0.0  0.1  4353992  19456   ??  Ss    1:18pm   0:31.23 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+knickypi          7611   0.0  0.4  4941784  73052   ??  S     1:14pm   0:05.51 /System/Applications/Preview.app/Contents/MacOS/Preview -psn_0_2363969
+root              7539   0.0  0.0  4334712   4364   ??  Ss    1:01pm   0:00.08 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated
+knickypi          7538   0.0  0.2  4363284  32116   ??  S     1:01pm   0:00.51 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent
+knickypi          7512   0.0  0.1  4894556  17416   ??  S    12:56pm   0:00.57 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/ColorSampler.xpc/Contents/MacOS/ColorSampler
+knickypi          7433   0.0  0.2  4874696  32044   ??  Ss   12:53pm   0:00.32 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+knickypi          7432   0.0  0.4  5186980  68920   ??  Ss   12:53pm   0:05.62 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+knickypi          7400   0.0  0.3  4349152  44272   ??  Ss   12:46pm   0:00.95 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper
+knickypi          7369   0.0  0.1  4869320  16184   ??  S    12:41pm   0:00.24 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app/Contents/MacOS/universalAccessAuthWarn launchd -s
+knickypi          7061   0.0  0.3  4316592  47860   ??  S    12:33pm   0:00.38 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariHistoryServiceAgent
+knickypi          7060   0.0  0.0  4334092   4320   ??  S    12:33pm   0:00.04 /usr/libexec/videosubscriptionsd
+knickypi          7059   0.0  0.3  4344576  48412   ??  S    12:33pm   0:00.41 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariNotificationAgent
+knickypi          7057   0.0  2.3 106742384 382044   ??  Ss   12:32pm   0:41.38 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+knickypi          7053   0.0  0.1  4351256  10892   ??  Ss   12:32pm   0:00.31 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+knickypi          7052   0.0  0.1  4314828  19756   ??  S    12:32pm   0:01.17 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/webinspectord
+knickypi          7051   0.0  0.0  4314360   7900   ??  Ss   12:32pm   0:02.11 /System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService
+knickypi          7050   0.0  0.3  4871056  51260   ??  Ss   12:32pm   0:00.66 /Applications/Safari.app/Contents/XPCServices/com.apple.Safari.SandboxBroker.xpc/Contents/MacOS/com.apple.Safari.SandboxBroker
+knickypi          7048   0.0  0.4  5439464  60408   ??  Ss   12:32pm   1:54.33 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+knickypi          7045   0.0  1.4  6518448 227108   ??  S    12:32pm   3:27.28 /Applications/Safari.app/Contents/MacOS/Safari
+knickypi          7040   0.0  0.2 89297052  28432   ??  Ss   12:31pm   0:00.55 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+knickypi          7039   0.0  0.3  5435188  47352   ??  Ss   12:31pm   0:01.89 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+knickypi          7037   0.0  0.4  5997816  71128   ??  S    12:31pm   0:11.92 /Applications/Todoist.app/Contents/MacOS/Todoist
+knickypi          6045   0.0  0.0  4306104   2032   ??  Ss   11:04am   0:00.23 /Applications/iTerm.app/Contents/XPCServices/pidinfo.xpc/Contents/MacOS/pidinfo
+knickypi          5473   0.0  0.9  4825560 151504   ??  S    10:45am   0:01.54 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=renderer --enable-experimental-web-platform-features --force-color-profile=srgb --disable-features=SpareRendererForSitePerProcess --disable-gpu-compositing --service-pipe-token=16191782836375719546 --lang=en-US --app-path=/Applications/Atom.app/Contents/Resources/app.asar --node-integration --no-sandbox --no-zygote --background-color=#fff --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=16191782836375719546 --renderer-client-id=8 --no-v8-untrusted-code-mitigations
+knickypi          5440   0.0  0.6  4623400 107800   ??  S    10:45am   0:17.89 /Applications/Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper --type=gpu-process --disable-features=SpareRendererForSitePerProcess --gpu-preferences=KAAAAAAAAACAAAAAAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAADgBAAAmAAAAMAEAAAAAAAA4AQAAAAAAAEABAAAAAAAASAEAAAAAAABQAQAAAAAAAFgBAAAAAAAAYAEAAAAAAABoAQAAAAAAAHABAAAAAAAAeAEAAAAAAACAAQAAAAAAAIgBAAAAAAAAkAEAAAAAAACYAQAAAAAAAKABAAAAAAAAqAEAAAAAAACwAQAAAAAAALgBAAAAAAAAwAEAAAAAAADIAQAAAAAAANABAAAAAAAA2AEAAAAAAADgAQAAAAAAAOgBAAAAAAAA8AEAAAAAAAD4AQAAAAAAAAACAAAAAAAACAIAAAAAAAAQAgAAAAAAABgCAAAAAAAAIAIAAAAAAAAoAgAAAAAAADACAAAAAAAAOAIAAAAAAABAAgAAAAAAAEgCAAAAAAAAUAIAAAAAAABYAgAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAGAAAAEAAAAAAAAAAAAAAABwAAABAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAKAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAQAAAAYAAAAQAAAAAAAAAAEAAAAHAAAAEAAAAAAAAAABAAAACAAAABAAAAAAAAAAAQAAAAoAAAAQAAAAAAAAAAEAAAALAAAAEAAAAAAAAAABAAAADQAAABAAAAAAAAAAAQAAAA4AAAAQAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAEAAAABgAAABAAAAAAAAAABAAAAAcAAAAQAAAAAAAAAAQAAAAIAAAAEAAAAAAAAAAEAAAACgAAABAAAAAAAAAABAAAAAsAAAAQAAAAAAAAAAQAAAANAAAAEAAAAAAAAAAEAAAADgAAABAAAAAAAAAABgAAAAAAAAAQAAAAAAAAAAYAAAAGAAAAEAAAAAAAAAAGAAAACAAAABAAAAAAAAAABgAAAAoAAAAQAAAAAAAAAAYAAAALAAAAEAAAAAAAAAAGAAAADQAAABAAAAAAAAAABgAAAA4AAAAQAAAAAAAAAAcAAAAAAAAAEAAAAAAAAAAHAAAABgAAABAAAAAAAAAABwAAAAgAAAAQAAAAAAAAAAcAAAAKAAAAEAAAAAAAAAAHAAAACwAAABAAAAAAAAAABwAAAA0AAAAQAAAAAAAAAAcAAAAOAAAA --use-gl=disabled --service-request-channel-token=1485411541780709211
+knickypi          5437   0.0  0.1  4313816  13180   ??  S    10:45am   0:00.11 /Applications/Atom.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --no-rate-limit --no-upload-gzip --database=/var/folders/1p/n5x4y4xx2kddd_kjshrmvmnh0000gn/T/Atom Crashes --metrics-dir=/var/folders/1p/n5x4y4xx2kddd_kjshrmvmnh0000gn/T/Atom Crashes --url=https://atom.io/crash_reports --handshake-fd=50
+_gamecontrollerd  5434   0.0  0.1  4311636  11560   ??  Ss   10:45am   0:01.12 /usr/libexec/gamecontrollerd
+knickypi          5371   0.0  0.1  4293960  10492   ??  Ss   10:36am   0:00.07 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+knickypi          5331   0.0  0.1  4370880  20744   ??  Ss   10:31am   0:45.02 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+knickypi          5270   0.0  0.5  4404420  88388   ??  Ss   10:28am   0:00.27 /System/Library/Frameworks/QuickLook.framework/Versions/A/XPCServices/ExternalQuickLookSatellite.xpc/Contents/MacOS/ExternalQuickLookSatellite
+root              5219   0.0  0.0  4334080   3232   ??  Ss   10:26am   0:00.72 /usr/libexec/sandboxd
+_spotlight        5218   0.0  0.0  4306536   2968   ??  S    10:26am   0:00.05 /usr/sbin/distnoted agent
+root              5184   0.0  0.1  4341800  10288   ??  Ss   10:25am   0:00.12 /System/Library/Frameworks/SystemExtensions.framework/Versions/A/Helpers/sysextd
+root              5138   0.0  0.1  4313764  15436   ??  Ss   10:23am   0:00.65 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstored
+knickypi          5083   0.0  0.2  4355560  34080   ??  S    10:21am   0:00.54 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid
+knickypi          5035   0.0  0.1  4478516  10924   ??  S    10:11am   0:00.64 /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlightService
+knickypi          5017   0.0  0.0  4297116   1192   ??  S    10:08am   0:00.02 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
+knickypi          4487   0.0  0.1  4303176  10516   ??  Ss    9:45am   0:00.06 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+knickypi          4364   0.0  0.2  4340848  26360   ??  S     9:35am   0:00.25 /System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/IMAutomaticHistoryDeletionAgent
+root              4339   0.0  0.0  4311148   5976   ??  Ss    9:30am   0:00.07 /usr/libexec/applessdstatistics
+root              4337   0.0  0.0  4333280   1912   ??  Ss    9:30am   0:00.04 /usr/libexec/microstackshot
+_netbios          4280   0.0  0.1  4313364  10480   ??  SNs   9:27am   0:00.18 /usr/sbin/netbiosd
+knickypi          4264   0.0  0.2  4312224  30412   ??  S     7:17am   0:00.25 /System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert
+knickypi          4223   0.0  0.1  4346364  23024   ??  S     7:11am   0:00.26 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPArtworkAgent --launchd
+knickypi          4222   0.0  0.1  4351416  22052   ??  S     7:11am   0:01.76 /System/Library/PrivateFrameworks/BookKit.framework/Versions/A/XPCServices/com.apple.BKAgentService.xpc/Contents/MacOS/com.apple.BKAgentService
+knickypi          4221   0.0  0.1  4341460  13532   ??  S     7:11am   0:00.28 /System/Library/PrivateFrameworks/PodcastServices.framework/XPCServices/PodcastContentService.xpc/Contents/MacOS/PodcastContentService
+_fpsd             4220   0.0  0.0  4339836   7632   ??  Ss    7:11am   0:00.19 /System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fpsd
+knickypi          4219   0.0  0.2  4446228  37576   ??  S     7:11am   0:01.54 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent --launchd
+knickypi          4218   0.0  0.1  4366704  18020   ??  Ss    7:11am   0:00.21 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer
+root              4211   0.0  0.0  4340932   8276   ??  Ss    7:10am   0:00.14 /usr/bin/sysdiagnose
+knickypi          4210   0.0  0.1  4312972  16072   ??  S     7:10am   0:00.40 /usr/libexec/silhouette
+root              4137   0.0  0.1  4311652   9120   ??  Ss    7:10am   0:00.14 /usr/libexec/tzd
+root              4136   0.0  0.0  4288952    692   ??  SNs   7:10am   0:00.02 /usr/libexec/periodic-wrapper daily
+root              4124   0.0  0.0  4306540   1176   ??  Ss    7:09am   0:00.05 /usr/libexec/mobileactivationd
+knickypi          4121   0.0  0.0  4304948   1636   ??  S     7:09am   0:00.03 /System/Library/PrivateFrameworks/DeviceCheckInternal.framework/devicecheckd
+knickypi          4116   0.0  0.1  4311368   8576   ??  Ss    7:09am   0:00.15 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+_fpsd             3842   0.0  0.0  4307648   4104   ??  Ss    6:36pm   0:00.35 /System/Library/PrivateFrameworks/CoreLSKD.framework/Versions/A/lskdd
+knickypi          2814   0.0  0.2  4362852  30324   ??  Ss    5:54pm   0:00.30 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService
+knickypi          2781   0.0  0.0  4297284   2356   ??  S     5:53pm   0:00.02 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/XPCServices/com.apple.DictionaryServiceHelper.xpc/Contents/MacOS/com.apple.DictionaryServiceHelper
+knickypi          2755   0.0  0.1  4341836  10276   ??  Ss    5:53pm   0:00.41 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+knickypi          2062   0.0  0.2  4424476  41252   ??  S     5:09pm   0:02.79 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+knickypi          1825   0.0  0.1  4311040  11728   ??  S     5:02pm   0:00.08 /System/Library/PrivateFrameworks/CharacterPicker.framework/Versions/A/XPCServices/com.apple.CharacterPicker.FileService.xpc/Contents/MacOS/com.apple.CharacterPicker.FileService
+knickypi          1478   0.0  0.0  4304864   1536   ??  Ss    4:49pm   0:00.03 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+knickypi          1471   0.0  0.1  4392708  14668   ??  Ss    4:49pm   0:00.38 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+knickypi          1470   0.0  0.1  4392708  15012   ??  Ss    4:49pm   0:00.39 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+knickypi          1469   0.0  0.1  4392708  14900   ??  Ss    4:49pm   0:00.39 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+knickypi          1348   0.0  0.1  4874784  19816   ??  S     3:45pm   0:02.26 /System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper
+knickypi          1347   0.0  0.1  4392708  13692   ??  Ss    3:44pm   0:00.32 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+knickypi          1346   0.0  0.2  4345224  33276   ??  S     3:44pm   0:01.08 /usr/libexec/avconferenced
+root              1344   0.0  0.2  4345508  37196   ??  Ss    3:44pm   0:12.03 /usr/libexec/PerfPowerServices
+knickypi          1334   0.0  0.1  4343096  16104   ??  S     3:44pm   0:00.30 /System/Library/PrivateFrameworks/ClassKit.framework/Versions/A/progressd
+knickypi          1333   0.0  0.3  4345836  42976   ??  S     3:44pm   0:02.84 /System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed
+knickypi          1332   0.0  0.2  4350732  30660   ??  S     3:44pm   0:01.24 /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+knickypi          1330   0.0  0.1  4340728  11536   ??  S     3:44pm   0:00.28 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+knickypi          1314   0.0  0.2  4345144  30948   ??  S     3:44pm   0:00.75 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+knickypi          1312   0.0  0.3  4396916  45396   ??  S     3:44pm   0:06.14 /usr/libexec/studentd
+knickypi          1294   0.0  0.0  4305376   2060   ??  S     3:40pm   0:00.12 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd
+knickypi          1065   0.0  0.1  4350756  10936   ??  S     3:00pm   0:00.88 /usr/libexec/transparencyd
+knickypi           812   0.0  0.0  4345904   7256   ??  Ss    2:40pm   0:00.95 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+knickypi           740   0.0  0.0  4304288   6740   ??  S     2:37pm   0:00.07 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Versions/A/printtool
+knickypi           696   0.0  0.1  4352196  15880   ??  S     2:36pm   0:03.59 /System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent
+knickypi           654   0.0  0.1  4410296  22676   ??  S     2:34pm   0:18.05 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service
+knickypi           646   0.0  0.3  4342568  44220   ??  S     2:34pm   0:10.95 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariCloudHistoryPushAgent
+knickypi           645   0.0  0.1  4348024   8924   ??  S     2:34pm   0:00.74 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+knickypi           644   0.0  0.1  4865732  18976   ??  S     2:34pm   0:00.58 /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/SimulatorTrampoline.xpc/Contents/MacOS/SimulatorTrampoline
+knickypi           642   0.0  0.1  4868476  23496   ??  S     2:34pm   0:00.90 /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/com.apple.CoreSimulator.CoreSimulatorService.xpc/Contents/MacOS/com.apple.CoreSimulator.CoreSimulatorService
+knickypi           611   0.0  0.3  4345096  48632   ??  S     2:34pm   0:00.47 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariLaunchAgent
+knickypi           603   0.0  0.5  4373004  77352   ??  S     2:34pm   0:17.97 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History
+knickypi           592   0.0  0.1  4313456  18112   ??  S     2:32pm   0:00.19 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+knickypi           591   0.0  0.1  4343824  21860   ??  S     2:32pm   0:01.39 cloudphotod
+knickypi           588   0.0  0.0  4334876   4632   ??  S     2:32pm   0:00.60 /System/Library/CoreServices/ScopedBookmarkAgent
+knickypi           587   0.0  0.2  4405200  37680   ??  S     2:32pm   0:06.80 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd
+knickypi           586   0.0  0.3  4386784  46932   ??  S     2:32pm   0:18.25 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+root               585   0.0  0.0  4339652   4364   ??  Ss    2:32pm   0:00.26 /usr/libexec/dprivacyd
+knickypi           583   0.0  0.2  4382896  41568   ??  S     2:32pm   0:05.95 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent
+knickypi           577   0.0  0.1  4340180  17524   ??  S     2:30pm   0:00.80 /System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/Support/recentsd
+knickypi           570   0.0  0.1  4344356  19564   ??  S     2:29pm   0:00.37 /usr/libexec/keyboardservicesd
+knickypi           569   0.0  0.3  4479248  48760   ??  S     2:29pm   0:09.45 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+root               561   0.0  0.1  4340640   8484   ??  Ss    2:29pm   0:00.35 /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd
+knickypi           560   0.0  0.2  4356860  27560   ??  Ss    2:28pm   0:01.18 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+knickypi           559   0.0  0.1  4303176  10516   ??  Ss    2:28pm   0:00.10 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+knickypi           558   0.0  0.3  4392452  50156   ??  Ss    2:28pm   0:03.91 /System/Library/Frameworks/QuickLook.framework/Versions/A/XPCServices/QuickLookSatellite.xpc/Contents/MacOS/QuickLookSatellite
+knickypi           554   0.0  0.1  4310952   8976   ??  S     2:28pm   0:00.33 /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd
+knickypi           553   0.0  0.0  4333572   4508   ??  S     2:28pm   0:00.05 /System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent
+knickypi           550   0.0  0.2  4346376  34608   ??  S     2:28pm   0:01.57 /usr/libexec/fmfd
+knickypi           549   0.0  0.0  4310956   5576   ??  S     2:28pm   0:00.60 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent
+knickypi           548   0.0  0.1  4349340  10700   ??  S     2:28pm   0:22.34 /System/Library/CoreServices/ReportCrash agent
+knickypi           547   0.0  0.4  4350856  59200   ??  S     2:28pm   0:19.77 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+root               543   0.0  0.0  4313076   4416   ??  Ss    2:28pm   0:00.14 /System/Library/CoreServices/iconservicesagent runAsRoot
+root               536   0.0  0.1  4310536  13708   ??  Ss    2:28pm   0:00.19 /Library/PrivilegedHelperTools/com.macpaw.CleanMyMac4.Agent
+root               531   0.0  0.1  4310868   9904   ??  Ss    2:27pm   0:00.43 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd
+knickypi           530   0.0  0.1  4342664  23764   ??  S     2:27pm   0:00.62 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+root               529   0.0  0.1  4350500  13648   ??  Ss    2:27pm   0:00.57 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+root               528   0.0  0.0  4364172   5508   ??  Ss    2:27pm   0:00.59 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+knickypi           527   0.0  0.1  4313392  24888   ??  S     2:27pm   0:00.59 /usr/libexec/replayd
+root               525   0.0  0.0  4311384   6020   ??  Ss    2:27pm   0:06.47 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted_helper
+knickypi           524   0.0  0.1  4342912  10648   ??  S     2:27pm  20:36.25 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+knickypi           522   0.0  0.1  4347260  21672   ??  S     2:27pm   0:01.66 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+knickypi           516   0.0  0.0  4311408   4076   ??  S     2:27pm   0:00.09 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/fudHelperAgent
+root               491   0.0  0.1  4404568  17192   ??  Ss    2:27pm   0:00.90 /usr/libexec/rtcreportingd
+knickypi           490   0.0  0.1  4312640  15400   ??  S     2:27pm   0:00.23 /usr/libexec/findmydevice-user-agent
+root               489   0.0  0.0  4304932   1880   ??  Ss    2:27pm   0:00.02 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+knickypi           488   0.0  0.1  4347556  17808   ??  S     2:27pm   0:01.43 /usr/libexec/adprivacyd
+root               484   0.0  0.1  4343384  12296   ??  Ss    2:27pm   0:22.50 /System/Library/PrivateFrameworks/StorageKit.framework/Resources/storagekitd
+knickypi           482   0.0  0.1  4313676   8456   ??  S     2:27pm   0:00.14 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/fontworker
+root               481   0.0  0.0  4343976   7716   ??  Ss    2:27pm   0:00.63 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+_applepay          472   0.0  0.0  4335820   5468   ??  Ss    2:27pm   0:00.10 /usr/libexec/nfcd
+knickypi           471   0.0  0.1  4341488  11100   ??  S     2:27pm   0:00.34 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar
+root               470   0.0  0.0  4302764   6116   ??  Ss    2:27pm   0:00.10 /System/Library/PrivateFrameworks/FindMyMac.framework/Resources/FindMyMacd
+knickypi           467   0.0  0.2  4355584  41120   ??  S     2:27pm   0:03.38 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+_spotlight         465   0.0  0.0  4337300   7252   ??  S     2:27pm   0:01.81 /usr/libexec/trustd --agent
+knickypi           464   0.0  0.1  4349604  17504   ??  S     2:27pm   0:00.72 com.globaldelight.Boom3DMASHelper
+knickypi           461   0.0  0.1  4871988  19572   ??  S     2:27pm   0:00.68 /Applications/Yandex.Disk.app/Contents/MacOS/Editor.app/Contents/MacOS/Editor -psn_0_200753
+root               459   0.0  0.0  4343756   5480   ??  Ss    2:26pm   0:00.17 /System/Library/PrivateFrameworks/AssetCacheServicesExtensions.framework/XPCServices/AssetCacheTetheratorService.xpc/Contents/MacOS/AssetCacheTetheratorService
+_assetcache        456   0.0  0.1  4343020  12264   ??  Ss    2:26pm   0:00.54 /usr/libexec/AssetCache/AssetCache
+knickypi           455   0.0  0.1  4395632   9928   ??  S     2:26pm   0:00.74 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a
+knickypi           452   0.0  0.1  4407440   8468   ??  S     2:26pm   0:05.24 /usr/libexec/swcd
+knickypi           451   0.0  0.0  4306028   2824   ??  S     2:26pm   0:00.04 /usr/libexec/loginitemregisterd
+_nsurlstoraged     450   0.0  0.0  4314308   7724   ??  Ss    2:26pm   0:00.27 /usr/libexec/nsurlstoraged --privileged
+root               449   0.0  0.1  4311836  12020   ??  Ss    2:26pm   0:00.18 /System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd
+knickypi           447   0.0  0.0  4340412   7784   ??  S     2:26pm   0:00.20 /System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent
+_softwareupdate    445   0.0  0.4  5497340  60364   ??  Ss    2:26pm   0:28.76 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+knickypi           444   0.0  0.2  4361764  25992   ??  S     2:26pm   0:00.82 /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager
+knickypi           443   0.0  0.6  4488244 107216   ??  S     2:26pm   0:30.73 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+knickypi           442   0.0  1.1  5072520 191784   ??  S     2:26pm   6:17.87 /Volumes/macOS HS/Applications/Adguard.app/Contents/MacOS/Adguard
+knickypi           441   0.0  0.4  4725168  59164   ??  S     2:26pm   0:07.57 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+knickypi           440   0.0  0.3  4408160  44060   ??  S     2:26pm   0:02.16 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+knickypi           439   0.0  0.1  4339484  10424   ??  Ss    2:26pm   0:00.87 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/XPCServices/ContainerMetadataExtractor.xpc/Contents/MacOS/ContainerMetadataExtractor
+knickypi           438   0.0  0.2  4346412  28888   ??  S     2:26pm   0:00.68 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+knickypi           437   0.0  0.2  4341124  26220   ??  S     2:26pm   0:00.30 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+knickypi           436   0.0  0.1  4311180  12600   ??  S     2:26pm   0:00.18 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd
+_fpsd              435   0.0  0.0  4309088   5584   ??  Ss    2:26pm   0:01.52 /System/Library/PrivateFrameworks/CoreADI.framework/adid
+knickypi           434   0.0  0.1  4349304  12832   ??  S     2:26pm   0:00.30 /usr/libexec/neagent
+knickypi           433   0.0  0.1  4878168  23120   ??  S     2:26pm   0:02.20 /System/Library/CoreServices/LocationMenu.app/Contents/MacOS/LocationMenu
+knickypi           431   0.0  0.1  4353784  18736   ??  S     2:26pm   0:00.82 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent
+knickypi           429   0.0  0.1  4343912  24452   ??  Ss    2:26pm   0:00.78 /System/Library/PrivateFrameworks/WeatherKit.framework/Versions/A/XPCServices/com.apple.WeatherKitService.xpc/Contents/MacOS/com.apple.WeatherKitService
+knickypi           424   0.0  0.2  4351192  37436   ??  S     2:26pm   0:02.91 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+knickypi           423   0.0  0.1  4349920  19176   ??  S     2:26pm   0:00.67 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesisServer.app/Contents/MacOS/SpeechSynthesisServer launchd
+knickypi           422   0.0  0.2  4341056  30128   ??  S     2:26pm   0:13.70 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+root               421   0.0  0.1  4341824  12532   ??  Ss    2:26pm   0:01.32 /usr/libexec/wifivelocityd
+knickypi           420   0.0  0.0  4333044   3880   ??  S     2:26pm   0:00.10 /usr/libexec/WiFiVelocityAgent
+knickypi           417   0.0  0.1  4866088  25116   ??  S     2:26pm   0:05.60 /System/Library/Frameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent
+knickypi           416   0.0  0.0  4333996   4512   ??  S     2:26pm   0:00.46 /System/Library/CoreServices/pbs
+knickypi           415   0.0  0.2  5919220  32288   ??  Ss    2:26pm   0:03.64 /System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension
+knickypi           414   0.0  0.1  4342552  10752   ??  Ss    2:26pm   0:00.75 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+knickypi           413   0.0  0.1  4310976  20768   ??  Ss    2:26pm   0:00.16 /System/Library/CoreServices/NotificationCenter.app/Contents/XPCServices/com.apple.notificationcenterui.WeatherSummary.xpc/Contents/MacOS/com.apple.notificationcenterui.WeatherSummary
+knickypi           412   0.0  0.1  4346180  23620   ??  S     2:26pm   0:01.04 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+knickypi           411   0.0  0.1  4349768  16384   ??  S     2:26pm   0:05.85 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+knickypi           410   0.0  0.2  4349648  32556   ??  S     2:26pm   0:01.93 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce
+knickypi           408   0.0  0.1  4368444  21648   ??  S     2:26pm   0:01.37 /System/Library/CoreServices/TextInputSwitcher.app/Contents/MacOS/TextInputSwitcher
+knickypi           407   0.0  0.1  4346312  13956   ??  S     2:26pm   0:02.71 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+knickypi           406   0.0  0.7  5009572 112632   ??  S     2:26pm   0:48.79 /Applications/Yandex.Disk.app/Contents/MacOS/Yandex.Disk
+knickypi           405   0.0  0.2  4313076  26220   ??  S     2:26pm   0:00.28 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+knickypi           404   0.0  0.1  4867652  19160   ??  S     2:26pm   0:00.97 /System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app/Contents/MacOS/AppSSOAgent
+knickypi           403   0.0  0.3  4933232  52260   ??  S     2:26pm   0:46.98 /Applications/Magnet.app/Contents/MacOS/Magnet
+root               401   0.0  0.0  4297084   2792   ??  Ss    2:26pm   0:01.28 /usr/libexec/taskgated
+knickypi           400   0.0  0.1  4312624   8644   ??  S     2:26pm   0:00.16 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+knickypi           398   0.0  0.1  4343272  18388   ??  S     2:26pm   0:02.48 /System/Library/PrivateFrameworks/AppleMediaServices.framework/Resources/amsaccountsd
+knickypi           395   0.0  0.2  4884432  28092   ??  S     2:26pm   0:08.28 /System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent
+knickypi           394   0.0  0.1  4343476  12804   ??  S     2:26pm   0:01.83 /System/Library/CoreServices/diagnostics_agent
+knickypi           393   0.0  0.2  4344948  34232   ??  S     2:26pm   0:00.98 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+knickypi           392   0.0  0.1  4341120  24056   ??  S     2:26pm   0:00.31 /System/Library/CoreServices/cloudpaird
+knickypi           391   0.0  0.1  4865908  19216   ??  S     2:26pm   0:00.64 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+knickypi           390   0.0  0.0  4305400   2036   ??  S     2:26pm   0:02.34 /usr/local/sbin/patchupdaterd
+knickypi           389   0.0  0.3  4365320  54588   ??  S     2:26pm   0:22.21 /usr/libexec/sharingd
+knickypi           388   0.0  0.1  4343084  15800   ??  S     2:26pm   0:01.91 /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond
+knickypi           386   0.0  0.1  4340308  13912   ??  S     2:26pm   0:00.34 /System/Library/Image Capture/Support/icdd
+knickypi           385   0.0  0.9  7320532 159224   ??  S     2:26pm   1:44.35 com.macpaw.CleanMyMac4.Menu
+knickypi           384   0.0  0.1  4343280  15056   ??  S     2:26pm   0:00.44 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+knickypi           381   0.0  0.1  4338928  14188   ??  S     2:26pm   0:00.26 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+knickypi           379   0.0  0.1  4346772  24880   ??  S     2:26pm   0:04.03 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/ContextStoreAgent
+knickypi           378   0.0  0.4  4383788  62992   ??  S     2:26pm   1:01.93 com.macpaw.CleanMyMac4.HealthMonitor
+knickypi           377   0.0  0.1  4314292  23708   ??  S     2:26pm   0:00.25 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+knickypi           376   0.0  0.1  4350048  16020   ??  S     2:26pm   0:22.38 /usr/libexec/nsurlstoraged
+knickypi           375   0.0  0.7  5123388 113040   ??  S     2:26pm   0:22.25 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+root               374   0.0  0.0  4311748   5820   ??  Ss    2:26pm   0:01.02 /usr/sbin/filecoordinationd
+knickypi           373   0.0  0.1  4342020  11976   ??  Ss    2:26pm   0:00.85 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+knickypi           371   0.0  0.2  4869800  39304   ??  Ss    2:26pm   0:00.99 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+knickypi           370   0.0  0.1  4343168  13744   ??  S     2:26pm   0:02.09 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+knickypi           369   0.0  0.3  4356800  44624   ??  Ss    2:26pm   0:14.47 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService
+knickypi           366   0.0  0.1  4346180  23448   ??  S     2:26pm   0:01.01 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/TrustedPeersHelper.xpc/Contents/MacOS/TrustedPeersHelper
+knickypi           365   0.0  0.1  4311448  10120   ??  S     2:26pm   0:00.11 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc/Contents/MacOS/SafeEjectGPUService
+knickypi           364   0.0  0.1  4827504   9404   ??  S     2:26pm   0:00.10 SafeEjectGPUAgent
+knickypi           363   0.0  0.1  4341292   9380   ??  S     2:26pm   0:00.18 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+knickypi           362   0.0  0.1  4345300  16888   ??  S     2:26pm   0:01.56 /System/Library/CoreServices/mapspushd
+knickypi           361   0.0  0.0  4312032   6352   ??  S     2:26pm   0:00.08 /usr/libexec/spindump_agent
+knickypi           360   0.0  0.1  4354480  21036   ??  S     2:26pm   0:07.47 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+knickypi           359   0.0  0.5  5142548  75900   ??  S     2:26pm   0:06.71 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+root               358   0.0  0.2  4369388  26968   ??  Ss    2:26pm   0:00.95 /usr/libexec/findmydeviced
+knickypi           356   0.0  0.3  4365324  48740   ??  S     2:26pm   0:23.80 /System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent
+knickypi           355   0.0  0.1  4347828   8800   ??  Ss    2:26pm   0:00.18 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+knickypi           354   0.0  0.2  4361600  34544   ??  S     2:26pm   0:03.67 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+knickypi           353   0.0  0.4  4390904  70436   ??  S     2:26pm   0:48.00 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+knickypi           352   0.0  0.0  4305400   2352   ??  S     2:26pm   0:00.02 /System/Library/CoreServices/APFSUserAgent
+knickypi           351   0.0  0.1  4342064  21476   ??  S     2:26pm   0:12.74 /System/Library/CoreServices/lockoutagent
+knickypi           350   0.0  0.1  4341236   9672   ??  S     2:26pm   0:00.17 /usr/libexec/networkserviceproxy
+knickypi           349   0.0  0.2  4346628  32468   ??  S     2:26pm   0:14.01 /usr/sbin/usernoted
+knickypi           348   0.0  0.2  4360696  39272   ??  S     2:26pm   0:32.15 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+knickypi           347   0.0  0.1  4407608  24568   ??  S     2:26pm   0:01.99 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService
+knickypi           346   0.0  0.1  4343648  12904   ??  Ss    2:26pm   0:01.29 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+knickypi           344   0.0  0.0  4314824   5404   ??  S     2:26pm   0:00.37 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+knickypi           339   0.0  0.6  4489128  97064   ??  S     2:26pm   0:21.26 /System/Library/CoreServices/iconservicesagent
+knickypi           338   0.0  0.1  4344556  16912   ??  S     2:26pm   0:03.18 /System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent --launchd
+knickypi           337   0.0  0.0  4336376   7880   ??  S     2:26pm   0:01.60 /System/Library/CoreServices/sharedfilelistd
+knickypi           335   0.0  0.2  4355880  25416   ??  S     2:26pm   0:14.55 /usr/libexec/nsurlsessiond
+knickypi           334   0.0  0.1  4345464  22204   ??  S     2:26pm   0:02.34 /usr/libexec/dmd
+knickypi           333   0.0  0.6  4440448  98984   ??  S     2:26pm   1:55.85 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+knickypi           332   0.0  0.1  4351372  14316   ??  S     2:26pm   0:05.33 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+knickypi           329   0.0  0.1  4338624  13368   ??  S     2:26pm   0:19.71 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+knickypi           328   0.0  0.0  4336532   7888   ??  S     2:26pm   0:14.69 /usr/libexec/secinitd
+knickypi           327   0.0  0.2  4362028  38940   ??  S     2:26pm   1:10.90 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+knickypi           326   0.0  0.3  4372456  49920   ??  S     2:26pm   1:16.69 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+knickypi           325   0.0  0.2  4351340  27740   ??  S     2:26pm   0:02.24 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+knickypi           324   0.0  0.1  4347696  15608   ??  S     2:26pm   0:15.86 /usr/libexec/pkd
+knickypi           323   0.0  0.5  6039720  75988   ??  Ss    2:26pm   0:23.89 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+knickypi           322   0.0  0.0  4306384   6044   ??  S     2:26pm   0:01.30 /usr/libexec/pboard
+knickypi           321   0.0  0.0  4335936   6800   ??  S     2:26pm   0:00.25 /System/Library/CoreServices/backgroundtaskmanagementagent
+knickypi           318   0.0  0.1  4341428  24864   ??  S     2:26pm   0:02.99 /usr/libexec/rapportd
+knickypi           315   0.0  0.3  4926152  57676   ??  S     2:26pm   0:33.29 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+knickypi           313   0.0  0.1  4349944  17764   ??  S     2:26pm   0:01.00 /System/Library/CoreServices/talagent
+knickypi           312   0.0  0.1  4414528  13680   ??  S     2:26pm   0:04.47 /usr/libexec/lsd
+knickypi           311   0.0  0.2  4370004  34948   ??  S     2:26pm   0:43.17 /usr/libexec/secd
+knickypi           310   0.0  0.1  4407432  22516   ??  S     2:26pm   0:58.87 /usr/libexec/trustd --agent
+knickypi           309   0.0  0.2  4357920  32620   ??  S     2:26pm   0:15.45 /usr/libexec/knowledge-agent
+knickypi           308   0.0  0.1  4346072  20912   ??  S     2:26pm   0:01.03 /System/Library/PrivateFrameworks/CloudServices.framework/Helpers/com.apple.sbd
+knickypi           306   0.0  0.0  4306536   6556   ??  S     2:26pm   0:09.92 /usr/sbin/distnoted agent
+root               305   0.0  0.0  4305084   1520   ??  Ss    2:26pm   0:00.02 /usr/libexec/smd
+knickypi           303   0.0  0.2  4343492  41028   ??  S     2:26pm   0:04.96 /usr/libexec/UserEventAgent (Aqua)
+root               302   0.0  0.1  4311756  10012   ??  Ss    2:26pm   0:00.16 /System/Library/CoreServices/SubmitDiagInfo server-init
+root               301   0.0  0.3  4355964  52504   ??  Ss    2:26pm   0:01.26 /usr/sbin/spindump
+root               300   0.0  0.0  4306956   3456   ??  Ss    2:26pm   0:00.18 /usr/libexec/securityd_service
+knickypi           299   0.0  0.1  4311504  10084   ??  S     2:26pm   0:18.48 /usr/sbin/cfprefsd agent
+knickypi           298   0.0  0.1  4339284  12936   ??  S     2:26pm   0:00.54 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+_locationd         295   0.0  0.0  4306536   3224   ??  S     2:26pm   0:00.13 /usr/sbin/distnoted agent
+root               294   0.0  0.0  4289340   1700   ??  Ss    2:26pm   0:00.08 /System/Library/Frameworks/GSS.framework/Helpers/GSSCred
+root               290   0.0  0.0  4334300   4444   ??  Ss    2:26pm   0:00.07 /System/Library/CoreServices/sharedfilelistd
+_captiveagent      287   0.0  0.0  4307612   2932   ??  Ss    2:26pm   0:00.07 /usr/libexec/captiveagent
+root               286   0.0  0.1  4341188  13148   ??  Ss    2:26pm   0:06.26 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+root               285   0.0  0.0  4305460    776   ??  Ss    2:26pm   0:00.02 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/XPCServices/com.apple.cmio.registerassistantservice.xpc/Contents/MacOS/com.apple.cmio.registerassistantservice
+root               283   0.0  0.0  4306052   1492   ??  Ss    2:26pm   0:00.02 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/USBCAccessoryUpdaterService.xpc/Contents/MacOS/USBCAccessoryUpdaterService
+root               282   0.0  0.0  4341996   6360   ??  S     2:26pm   0:01.25 /usr/sbin/systemstats --logger-helper /private/var/db/systemstats
+root               281   0.0  0.0  4305084   1608   ??  Ss    2:26pm   0:03.35 /usr/libexec/sysmond
+_ctkd              278   0.0  0.0  4313080   4288   ??  Ss    2:26pm   0:00.12 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+root               275   0.0  0.1  4345760  10384   ??  Ss    2:26pm   0:01.40 /usr/sbin/systemsoundserverd
+root               272   0.0  0.0  4312588   6828   ??  Ss    2:26pm   0:00.14 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+root               271   0.0  0.1  4311376  10752   ??  Ss    2:26pm   0:00.13 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+root               270   0.0  0.0  4305428   2444   ??  Ss    2:26pm   0:00.08 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+root               268   0.0  0.1  4314736   8492   ??  Ss    2:26pm   0:00.69 /usr/libexec/diskmanagementd
+root               245   0.0  0.0  4306536   2196   ??  S     2:26pm   0:00.13 /usr/sbin/distnoted agent
+root               244   0.0  1.3  5492552 214752   ??  Ss    2:26pm   3:12.86 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+root               240   0.0  0.1  4312188  13664   ??  Ss    2:26pm   0:00.14 /usr/libexec/bootinstalld
+_appleevents       239   0.0  0.0  4336064   5948   ??  Ss    2:26pm   0:01.15 /System/Library/CoreServices/appleeventsd --server
+root               236   0.0  0.0  4312156   7184   ??  Ss    2:26pm   0:00.28 /usr/libexec/colorsyncd
+root               233   0.0  0.1  4349516  18308   ??  Ss    2:26pm   0:10.07 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+root               232   0.0  0.1  4310996   8840   ??  Ss    2:26pm   0:01.33 /usr/libexec/colorsync.displayservices
+root               229   0.0  0.0  4340560   4540   ??  Ss    2:26pm   0:01.32 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+root               208   0.0  0.0  4336192   6152   ??  Ss    2:26pm   0:00.11 /usr/libexec/secinitd
+root               205   0.0  0.1  4411492  12416   ??  Ss    2:26pm   0:02.82 /usr/libexec/lsd runAsRoot
+_driverkit         204   0.0  0.0  4798236   1680   ??  Ss    2:26pm   0:00.01 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleUserHIDEventDriver 0x10000041d
+root               203   0.0  0.0  4308460   6088   ??  Ss    2:26pm   0:01.54 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+_cmiodalassistants   201   0.0  0.1  4344320  12152   ??  Ss    2:26pm   0:00.46 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+root               200   0.0  0.0  4296964    984   ??  Ss    2:26pm   0:00.03 /usr/libexec/firmwarecheckers/ethcheck/ethcheck --integrity-check-daemon
+root               199   0.0  0.1  4340388   9248   ??  Ss    2:26pm   0:02.59 /usr/libexec/usbd
+root               193   0.0  0.1  4345256  13192   ??  Ss    2:26pm   0:06.88 /usr/libexec/runningboardd
+root               192   0.0  0.1  4342412  11332   ??  Ss    2:26pm   0:10.30 /usr/libexec/ApplicationFirewall/socketfilterfw
+root               191   0.0  0.1  4348260  19432   ??  Ss    2:26pm   0:16.22 /usr/libexec/mobileassetd
+root               190   0.0  0.0  4304912   2664   ??  Ss    2:26pm   0:00.08 /usr/libexec/apfsd
+root               189   0.0  0.0  4310960   6656   ??  Ss    2:26pm   0:00.12 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+_nsurlsessiond     188   0.0  0.1  4346732  21044   ??  Ss    2:26pm   0:02.85 /usr/libexec/nsurlsessiond --privileged
+_locationd         187   0.0  0.0  4337428   6292   ??  S     2:26pm   0:00.30 /usr/libexec/trustd --agent
+_locationd         186   0.0  0.0  4305352   1180   ??  S     2:26pm   0:00.02 /usr/sbin/cfprefsd agent
+_locationd         185   0.0  0.0  4336360   6188   ??  S     2:26pm   0:00.13 /usr/libexec/secinitd
+root               184   0.0  0.2  4352508  32072   ??  Ss    2:26pm   0:27.86 /usr/libexec/airportd
+_locationd         183   0.0  0.1  4349372  13524   ??  S     2:26pm   0:01.29 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+root               182   0.0  0.0  4334444   4164   ??  Ss    2:26pm   0:00.26 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+_coreaudiod        180   0.0  0.1  4302916  10404   ??  Ss    2:26pm   0:00.11 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+root               179   0.0  0.1  4313260   9592   ??  Ss    2:26pm   0:00.19 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon
+root               176   0.0  0.2  4340688  31500   ??  Ss    2:26pm   0:01.48 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+_networkd          175   0.0  0.1  4354292  15412   ??  Ss    2:26pm   0:12.08 /usr/libexec/symptomsd
+_coreaudiod        174   0.0  0.0  4334276   5144   ??  Ss    2:26pm   0:00.12 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+root               172   0.0  0.0  4333904   3292   ??  Ss    2:26pm   0:02.72 /usr/sbin/mDNSResponderHelper
+_mdnsresponder     158   0.0  0.0  4336232   6908   ??  Ss    2:26pm   0:09.88 /usr/sbin/mDNSResponder
+root               144   0.0  0.1  4343268  22284   ??  Ss    2:26pm   0:00.49 /usr/libexec/searchpartyd
+root               133   0.0  0.1  4341100  12392   ??  Ss    2:26pm   0:00.88 /usr/libexec/nehelper
+root               132   0.0  0.1  4349008  22832   ??  Ss    2:26pm   0:17.58 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+_analyticsd        131   0.0  0.1  4346068  20852   ??  Ss    2:26pm   0:02.19 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+root               130   0.0  0.1  4396344  14064   ??  Ss    2:26pm   0:22.31 /usr/libexec/trustd
+root               128   0.0  0.0  4334436   7796   ??  Ss    2:26pm   0:03.15 /System/Library/CoreServices/coreservicesd
+root               127   0.0  0.1  4410052  12784   ??  Ss    2:26pm   0:02.24 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+knickypi           124   0.0  0.3  4433208  55256   ??  Ss    2:26pm   0:24.38 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+root               123   0.0  0.2  4358628  31392   ??  Ss    2:26pm   0:12.30 /usr/libexec/syspolicyd
+root               122   0.0  0.0  4305444   1156   ??  Ss    2:26pm   0:00.09 aslmanager
+root               121   0.0  0.0  4306028   3712   ??  Ss    2:26pm   0:10.21 /usr/sbin/cfprefsd daemon
+_distnote          120   0.0  0.0  4306536   3908   ??  Ss    2:26pm   0:01.10 /usr/sbin/distnoted daemon
+root               119   0.0  0.2  4353964  28248   ??  Ss    2:26pm   0:21.86 /usr/libexec/amfid
+root               118   0.0  0.0  4306100   2284   ??  Ss    2:26pm   0:15.58 /usr/sbin/notifyd
+root               117   0.0  0.1  4343184  17424   ??  Ss    2:26pm   0:11.04 /usr/libexec/AirPlayXPCHelper
+root               116   0.0  0.1  4342264  18468   ??  Ss    2:26pm   0:05.42 /usr/libexec/corebrightnessd --launchd
+root               113   0.0  0.1  4345200  16608   ??  Ss    2:26pm   0:03.75 /usr/sbin/bluetoothd
+root               111   0.0  0.0  4296896   1516   ??  Ss    2:26pm   0:00.02 /usr/sbin/KernelEventAgent
+root               110   0.0  0.1  4356280  13488   ??  Ss    2:26pm   0:00.87 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+root               109   0.0  0.0  4310976   7524   ??  Ss    2:26pm   0:00.17 /System/Library/CoreServices/logind
+root               104   0.0  0.1  4345168  17408   ??  Ss    2:26pm   0:14.84 /usr/libexec/dasd
+_displaypolicyd    103   0.0  0.1  4311968  10824   ??  Ss    2:26pm   0:00.16 /usr/libexec/displaypolicyd -k 1
+root               102   0.0  0.0  4305472   2212   ??  Ss    2:26pm   0:00.03 autofsd
+_locationd         100   0.0  0.1  4351544  19072   ??  Ss    2:26pm   0:09.41 /usr/libexec/locationd
+root                98   0.0  0.0  4304816   1564   ??  Ss    2:26pm   0:00.01 auditd -l
+root                97   0.0  0.1  4338672  10076   ??  Ss    2:26pm   0:21.12 /usr/sbin/securityd -i
+_usbmuxd            96   0.0  0.1  4342228   8424   ??  Ss    2:26pm   0:06.54 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+_timed              95   0.0  0.0  4333812   4080   ??  Ss    2:26pm   0:00.56 /usr/libexec/timed
+root                94   0.0  0.1  4395044  16688   ??  Ss    2:26pm   0:35.56 /System/Library/CoreServices/launchservicesd
+root                93   0.0  0.1  4348768  23728   ??  Ss    2:26pm   0:06.16 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+root                89   0.0  0.2  4356864  27904   ??  Ss    2:26pm   0:07.32 /usr/libexec/coreduetd
+root                86   0.0  0.0  4390080   7848   ??  Ss    2:26pm   0:41.83 /usr/libexec/diskarbitrationd
+_iconservices       85   0.0  0.0  4312968   5352   ??  Ss    2:26pm   0:00.22 /System/Library/CoreServices/iconservicesd
+root                84   0.0  0.5  4473704  82924   ??  Ss    2:26pm   2:32.67 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+root                80   0.0  0.0  4311432   7148   ??  Ss    2:26pm   0:02.09 /usr/libexec/watchdogd
+root                78   0.0  0.1  4340992  11036   ??  Ss    2:26pm   0:02.52 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/fud 30
+root                77   0.0  0.0  4305296   3012   ??  Ss    2:26pm   0:00.37 /usr/libexec/keybagd -t 15
+root                76   0.0  0.2  4413712  37224   ??  Ss    2:26pm   0:36.82 /usr/libexec/logd
+root                72   0.0  0.1  4340836  15520   ??  Ss    2:26pm   0:25.40 /System/Library/CoreServices/powerd.bundle/powerd
+root                71   0.0  0.0  4305888   1116   ??  Ss    2:26pm   0:00.04 endpointsecurityd
+root                70   0.0  0.1  4344776  13252   ??  Ss    2:26pm   0:08.00 /usr/libexec/configd
+root                69   0.0  0.1  4351324  15084   ??  Ss    2:26pm   0:21.54 /usr/sbin/systemstats --daemon
+root                66   0.0  0.2  4350176  37624   ??  Ss    2:26pm   0:06.40 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+root                65   0.0  0.1  4383324   9928   ??  Ss    2:26pm   0:57.14 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+root                64   0.0  0.1  4862432  19580   ??  Ss    2:26pm   0:03.06 /usr/libexec/kextd
+root                63   0.0  0.0  4302416   6108   ??  Ss    2:26pm   0:01.85 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+root                60   0.0  0.1  4343348  23384   ??  Ss    2:26pm   0:03.90 /usr/libexec/UserEventAgent (System)
+root                59   0.0  0.0  4306048   1152   ??  Ss    2:26pm   0:06.76 /usr/sbin/syslogd
+root              8181   0.0  0.0  4270780    964 s001  R+    2:17pm   0:00.01 ps aux
+root                 1   0.0  0.2  4314504  25332   ??  Ss    2:26pm   2:04.31 /sbin/launchd
+_reportmemoryexception  8179   0.0  0.0  4339872   7816   ??  Ss    2:17pm   0:00.09 /usr/libexec/ReportMemoryException
+knickypi          8131   0.0  0.0  4297704   3996 s001  S     2:16pm   0:00.26 -zsh
+root              8130   0.0  0.1  4310792   9980 s001  S     2:16pm   0:00.10 login -fp knickypi
+knickypi          8122   0.0  0.2  4306324  31544 s001  Ss    2:16pm   0:00.23 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server login -fp knickypi
+knickypi          8021   0.0  0.1  4339820  20532   ??  S     2:13pm   0:00.17 /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/MacOS/com.apple.iCloudHelper
+knickypi          8016   0.0  0.1  4303176  10528   ??  Ss    2:11pm   0:00.12 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+knickypi          8015   0.0  0.1  4365864  24376   ??  S     2:11pm   0:00.22 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+root              7839   0.0  0.0  4316780   3468   ??  Ss    1:58pm   0:00.05 /usr/sbin/ocspd
+_spotlight        7812   0.0  0.1  4310704  17988   ??  S     1:41pm   0:00.15 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+knickypi          7801   0.0  0.2  4319488  26444   ??  S     1:35pm   0:00.43 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+knickypi          7800   0.0  0.2  4319476  25256   ??  S     1:35pm   0:00.44 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+knickypi          7799   0.0  0.2  4319476  26300   ??  S     1:35pm   0:01.07 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+knickypi          7798   0.0  0.2  4319688  25816   ??  S     1:35pm   0:00.35 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+knickypi          7797   0.0  0.2  4319476  26172   ??  S     1:35pm   0:00.82 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+knickypi          7796   0.0  0.2  4319688  25740   ??  S     1:35pm   0:00.40 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+
+-------------
+##
+# User Database
+#
+# Note that this file is consulted directly only when the system is running
+# in single-user mode.  At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
+_installassistant:*:25:25:Install Assistant:/var/empty:/usr/bin/false
+_lp:*:26:26:Printing Services:/var/spool/cups:/usr/bin/false
+_postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
+_scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
+_ces:*:32:32:Certificate Enrollment Service:/var/empty:/usr/bin/false
+_appstore:*:33:33:Mac App Store Service:/var/db/appstore:/usr/bin/false
+_mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
+_appleevents:*:55:55:AppleEvents Daemon:/var/empty:/usr/bin/false
+_geod:*:56:56:Geo Services Daemon:/var/db/geod:/usr/bin/false
+_devdocs:*:59:59:Developer Documentation:/var/empty:/usr/bin/false
+_sandbox:*:60:60:Seatbelt:/var/empty:/usr/bin/false
+_mdnsresponder:*:65:65:mDNSResponder:/var/empty:/usr/bin/false
+_ard:*:67:67:Apple Remote Desktop:/var/empty:/usr/bin/false
+_www:*:70:70:World Wide Web Server:/Library/WebServer:/usr/bin/false
+_eppc:*:71:71:Apple Events User:/var/empty:/usr/bin/false
+_cvs:*:72:72:CVS Server:/var/empty:/usr/bin/false
+_svn:*:73:73:SVN Server:/var/empty:/usr/bin/false
+_mysql:*:74:74:MySQL Server:/var/empty:/usr/bin/false
+_sshd:*:75:75:sshd Privilege separation:/var/empty:/usr/bin/false
+_qtss:*:76:76:QuickTime Streaming Server:/var/empty:/usr/bin/false
+_cyrus:*:77:6:Cyrus Administrator:/var/imap:/usr/bin/false
+_mailman:*:78:78:Mailman List Server:/var/empty:/usr/bin/false
+_appserver:*:79:79:Application Server:/var/empty:/usr/bin/false
+_clamav:*:82:82:ClamAV Daemon:/var/virusmails:/usr/bin/false
+_amavisd:*:83:83:AMaViS Daemon:/var/virusmails:/usr/bin/false
+_jabber:*:84:84:Jabber XMPP Server:/var/empty:/usr/bin/false
+_appowner:*:87:87:Application Owner:/var/empty:/usr/bin/false
+_windowserver:*:88:88:WindowServer:/var/empty:/usr/bin/false
+_spotlight:*:89:89:Spotlight:/var/empty:/usr/bin/false
+_tokend:*:91:91:Token Daemon:/var/empty:/usr/bin/false
+_securityagent:*:92:92:SecurityAgent:/var/db/securityagent:/usr/bin/false
+_calendar:*:93:93:Calendar:/var/empty:/usr/bin/false
+_teamsserver:*:94:94:TeamsServer:/var/teamsserver:/usr/bin/false
+_update_sharing:*:95:-2:Update Sharing:/var/empty:/usr/bin/false
+_installer:*:96:-2:Installer:/var/empty:/usr/bin/false
+_atsserver:*:97:97:ATS Server:/var/empty:/usr/bin/false
+_ftp:*:98:-2:FTP Daemon:/var/empty:/usr/bin/false
+_unknown:*:99:99:Unknown User:/var/empty:/usr/bin/false
+_softwareupdate:*:200:200:Software Update Service:/var/db/softwareupdate:/usr/bin/false
+_coreaudiod:*:202:202:Core Audio Daemon:/var/empty:/usr/bin/false
+_screensaver:*:203:203:Screensaver:/var/empty:/usr/bin/false
+_locationd:*:205:205:Location Daemon:/var/db/locationd:/usr/bin/false
+_trustevaluationagent:*:208:208:Trust Evaluation Agent:/var/empty:/usr/bin/false
+_timezone:*:210:210:AutoTimeZoneDaemon:/var/empty:/usr/bin/false
+_lda:*:211:211:Local Delivery Agent:/var/empty:/usr/bin/false
+_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
+_usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
+_dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
+_dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
+_postgres:*:216:216:PostgreSQL Server:/var/empty:/usr/bin/false
+_krbtgt:*:217:-2:Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_kadmin_admin:*:218:-2:Kerberos Admin Service:/var/empty:/usr/bin/false
+_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
+_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
+_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
+_netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
+_warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
+_dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
+_netstatistics:*:228:228:Network Statistics Daemon:/var/empty:/usr/bin/false
+_avbdeviced:*:229:-2:Ethernet AVB Device Daemon:/var/empty:/usr/bin/false
+_krb_krbtgt:*:230:-2:Open Directory Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_krb_kadmin:*:231:-2:Open Directory Kerberos Admin Service:/var/empty:/usr/bin/false
+_krb_changepw:*:232:-2:Open Directory Kerberos Change Password Service:/var/empty:/usr/bin/false
+_krb_kerberos:*:233:-2:Open Directory Kerberos:/var/empty:/usr/bin/false
+_krb_anonymous:*:234:-2:Open Directory Kerberos Anonymous:/var/empty:/usr/bin/false
+_assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
+_coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
+_launchservicesd:*:239:239:_launchservicesd:/var/empty:/usr/bin/false
+_iconservices:*:240:240:IconServices:/var/empty:/usr/bin/false
+_distnote:*:241:241:DistNote:/var/empty:/usr/bin/false
+_nsurlsessiond:*:242:242:NSURLSession Daemon:/var/db/nsurlsessiond:/usr/bin/false
+_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/db/nsurlstoraged:/usr/bin/false
+_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+_xserverdocs:*:251:251:macOS Server Documents Service:/var/empty:/usr/bin/false
+_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false
+_mobileasset:*:253:253:MobileAsset User:/var/ma:/usr/bin/false
+_findmydevice:*:254:254:Find My Device Daemon:/var/db/findmydevice:/usr/bin/false
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+_nearbyd:*:268:268:Proximity and Ranging Daemon:/var/db/nearbyd:/usr/bin/false
+_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+_driverkit:*:270:270:DriverKit:/var/empty:/usr/bin/false
