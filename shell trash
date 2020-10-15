@@ -572,3 +572,1469 @@ _timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
 _nearbyd:*:268:268:Proximity and Ranging Daemon:/var/db/nearbyd:/usr/bin/false
 _reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
 _driverkit:*:270:270:DriverKit:/var/empty:/usr/bin/false
+
+--
+/Library/Apple/usr/bin:
+total 32
+-rwxr-xr-x  1 root  wheel  49568  4 Jun 15:23 rvictl
+
+/Library/Frameworks/Python.framework/Versions/3.8/bin:
+total 120
+lrwxr-xr-x  1 root  admin      8 25 Aug 21:44 2to3 -> 2to3-3.8
+-rwxrwxr-x  1 root  admin    140 20 Jul 19:12 2to3-3.8
+-rwxrwxr-x  1 root  admin    277 25 Aug 21:45 easy_install-3.8
+lrwxr-xr-x  1 root  admin      7 25 Aug 21:44 idle3 -> idle3.8
+-rwxrwxr-x  1 root  admin    138 20 Jul 19:12 idle3.8
+-rwxrwxr-x  1 root  admin    268 25 Aug 21:45 pip3
+-rwxrwxr-x  1 root  admin    268 25 Aug 21:45 pip3.8
+lrwxr-xr-x  1 root  admin      8 25 Aug 21:44 pydoc3 -> pydoc3.8
+-rwxrwxr-x  1 root  admin    123 20 Jul 19:12 pydoc3.8
+lrwxr-xr-x  1 root  admin      9 25 Aug 21:44 python3 -> python3.8
+lrwxr-xr-x  1 root  admin     16 25 Aug 21:44 python3-config -> python3.8-config
+-rwxrwxr-x  1 root  admin  29008 20 Jul 19:16 python3.8
+-rwxrwxr-x  1 root  admin   2172 20 Jul 19:12 python3.8-config
+
+/bin:
+total 4848
+-rwxr-xr-x  1 root  wheel    35824 17 Mar  2020 [
+-r-xr-xr-x  1 root  wheel   623472 17 Mar  2020 bash
+-rwxr-xr-x  1 root  wheel    36768 17 Mar  2020 cat
+-rwxr-xr-x  1 root  wheel    47264 17 Mar  2020 chmod
+-rwxr-xr-x  1 root  wheel    42272 17 Mar  2020 cp
+-rwxr-xr-x  1 root  wheel   529424 17 Mar  2020 csh
+-rwxr-xr-x  1 root  wheel   110848 17 Mar  2020 dash
+-rwxr-xr-x  1 root  wheel    41872 17 Mar  2020 date
+-rwxr-xr-x  1 root  wheel    45120 17 Mar  2020 dd
+-rwxr-xr-x  1 root  wheel    36512 17 Mar  2020 df
+-rwxr-xr-x  1 root  wheel    31264 17 Mar  2020 echo
+-rwxr-xr-x  1 root  wheel    67200 17 Mar  2020 ed
+-rwxr-xr-x  1 root  wheel    36240 17 Mar  2020 expr
+-rwxr-xr-x  1 root  wheel    31408 17 Mar  2020 hostname
+-rwxr-xr-x  1 root  wheel    31808 17 Mar  2020 kill
+-r-xr-xr-x  1 root  wheel  1300256 17 Mar  2020 ksh
+-rwxr-xr-x  1 root  wheel   138432 17 Mar  2020 launchctl
+-rwxr-xr-x  1 root  wheel    32176 17 Mar  2020 link
+-rwxr-xr-x  1 root  wheel    32176 17 Mar  2020 ln
+-rwxr-xr-x  1 root  wheel    51888 17 Mar  2020 ls
+-rwxr-xr-x  1 root  wheel    31696 17 Mar  2020 mkdir
+-rwxr-xr-x  1 root  wheel    37472 17 Mar  2020 mv
+-rwxr-xr-x  1 root  wheel   124464 17 Mar  2020 pax
+-rwsr-xr-x  1 root  wheel    64416 17 Mar  2020 ps
+-rwxr-xr-x  1 root  wheel    31392 17 Mar  2020 pwd
+-rwxr-xr-x  1 root  wheel    37296 17 Mar  2020 rm
+-rwxr-xr-x  1 root  wheel    31296 17 Mar  2020 rmdir
+-rwxr-xr-x  1 root  wheel    31440 17 Mar  2020 sh
+-rwxr-xr-x  1 root  wheel    31328 17 Mar  2020 sleep
+-rwxr-xr-x  1 root  wheel    45312 17 Mar  2020 stty
+-rwxr-xr-x  1 root  wheel    30976 17 Mar  2020 sync
+-rwxr-xr-x  1 root  wheel   529424 17 Mar  2020 tcsh
+-rwxr-xr-x  1 root  wheel    35824 17 Mar  2020 test
+-rwxr-xr-x  1 root  wheel    37296 17 Mar  2020 unlink
+-rwxr-xr-x  1 root  wheel    31280 17 Mar  2020 wait4path
+-rwxr-xr-x  1 root  wheel   637632 17 Mar  2020 zsh
+
+/sbin:
+total 2024
+lrwxr-xr-x  1 root  wheel      68 25 Aug 19:46 apfs_hfs_convert -> ../System/Library/Filesystems/apfs.fs/Contents/Resources/hfs_convert
+-rwxr-xr-x  1 root  wheel   51408 17 Mar  2020 disklabel
+-rwxr-xr-x  1 root  wheel   31376 17 Mar  2020 dmesg
+-rwxr-xr-x  1 root  wheel   32496 17 Mar  2020 dynamic_pager
+-rwxr-xr-x  1 root  wheel  257776 17 Mar  2020 emond
+-rwxr-xr-x  1 root  wheel   57776 17 Mar  2020 fibreconfig
+-r-xr-xr-x  1 root  wheel   36992 17 Mar  2020 fsck
+lrwxr-xr-x  1 root  wheel      66 25 Aug 19:46 fsck_apfs -> ../System/Library/Filesystems/apfs.fs/Contents/Resources/fsck_apfs
+-rwxr-xr-x  1 root  wheel  149600 17 Mar  2020 fsck_cs
+lrwxr-xr-x  1 root  wheel      66 25 Aug 19:46 fsck_exfat -> /System/Library/Filesystems/exfat.fs/Contents/Resources/fsck_exfat
+lrwxr-xr-x  1 root  wheel      62 25 Aug 19:46 fsck_hfs -> /System/Library/Filesystems/hfs.fs/Contents/Resources/fsck_hfs
+lrwxr-xr-x  1 root  wheel      66 25 Aug 19:46 fsck_msdos -> /System/Library/Filesystems/msdos.fs/Contents/Resources/fsck_msdos
+lrwxr-xr-x  1 root  wheel      62 25 Aug 19:46 fsck_udf -> /System/Library/Filesystems/udf.fs/Contents/Resources/fsck_udf
+-r-xr-xr-x  1 root  wheel   31616 17 Mar  2020 fstyp
+-r-xr-xr-x  1 root  wheel   31712 17 Mar  2020 fstyp_hfs
+-r-xr-xr-x  1 root  wheel   31792 17 Mar  2020 fstyp_msdos
+-r-xr-xr-x  1 root  wheel   31776 17 Mar  2020 fstyp_ntfs
+-r-xr-xr-x  1 root  wheel   31824 17 Mar  2020 fstyp_udf
+-rwxr-xr-x  1 root  wheel   33040 17 Mar  2020 halt
+-r-xr-xr-x  1 root  wheel   97840 17 Mar  2020 ifconfig
+-rwxr-xr-x  1 root  wheel   77424 17 Mar  2020 kextload
+-rwxr-xr-x  1 root  wheel   42480 17 Mar  2020 kextunload
+-rwxr-xr-x  1 root  wheel  391104 17 Mar  2020 launchd
+-rwxr-xr-x  1 root  wheel   41888 17 Mar  2020 md5
+-rwxr-xr-x  1 root  wheel   35632 17 Mar  2020 mknod
+-r-xr-xr-x  1 root  wheel   41616 17 Mar  2020 mount
+-rwxr-xr-x  1 root  wheel   37440 17 Mar  2020 mount_9p
+lrwxr-xr-x  1 root  wheel      59 25 Aug 19:46 mount_acfs -> /System/Library/Filesystems/acfs.fs/Contents/bin/mount_acfs
+-rwxr-xr-x  1 root  wheel   36384 17 Mar  2020 mount_afp
+lrwxr-xr-x  1 root  wheel      67 25 Aug 19:46 mount_apfs -> ../System/Library/Filesystems/apfs.fs/Contents/Resources/mount_apfs
+lrwxr-xr-x  1 root  wheel      69 25 Aug 19:46 mount_cd9660 -> /System/Library/Filesystems/cd9660.fs/Contents/Resources/mount_cd9660
+lrwxr-xr-x  1 root  wheel      69 25 Aug 19:46 mount_cddafs -> /System/Library/Filesystems/cddafs.fs/Contents/Resources/mount_cddafs
+-r-xr-xr-x  1 root  wheel   31376 17 Mar  2020 mount_devfs
+lrwxr-xr-x  1 root  wheel      67 25 Aug 19:46 mount_exfat -> /System/Library/Filesystems/exfat.fs/Contents/Resources/mount_exfat
+-r-xr-xr-x  1 root  wheel   31584 17 Mar  2020 mount_fdesc
+lrwxr-xr-x  1 root  wheel      63 25 Aug 19:46 mount_ftp -> /System/Library/Filesystems/ftp.fs/Contents/Resources/mount_ftp
+lrwxr-xr-x  1 root  wheel      63 25 Aug 19:46 mount_hfs -> /System/Library/Filesystems/hfs.fs/Contents/Resources/mount_hfs
+lrwxr-xr-x  1 root  wheel      67 25 Aug 19:46 mount_msdos -> /System/Library/Filesystems/msdos.fs/Contents/Resources/mount_msdos
+-rwxr-xr-x  1 root  wheel   68224 17 Mar  2020 mount_nfs
+lrwxr-xr-x  1 root  wheel      65 25 Aug 19:46 mount_ntfs -> /System/Library/Filesystems/ntfs.fs/Contents/Resources/mount_ntfs
+-r-xr-xr-x  1 root  wheel   71072 17 Mar  2020 mount_smbfs
+lrwxr-xr-x  1 root  wheel      63 25 Aug 19:46 mount_udf -> /System/Library/Filesystems/udf.fs/Contents/Resources/mount_udf
+-rwxr-xr-x  1 root  wheel   31504 17 Mar  2020 mount_webdav
+-rwxr-xr-x  1 root  wheel   81728 17 Mar  2020 mpioutil
+lrwxr-xr-x  1 root  wheel      67 25 Aug 19:46 newfs_apfs -> ../System/Library/Filesystems/apfs.fs/Contents/Resources/newfs_apfs
+lrwxr-xr-x  1 root  wheel      67 25 Aug 19:46 newfs_exfat -> /System/Library/Filesystems/exfat.fs/Contents/Resources/newfs_exfat
+lrwxr-xr-x  1 root  wheel      63 25 Aug 19:46 newfs_hfs -> /System/Library/Filesystems/hfs.fs/Contents/Resources/newfs_hfs
+lrwxr-xr-x  1 root  wheel      67 25 Aug 19:46 newfs_msdos -> /System/Library/Filesystems/msdos.fs/Contents/Resources/newfs_msdos
+lrwxr-xr-x  1 root  wheel      63 25 Aug 19:46 newfs_udf -> /System/Library/Filesystems/udf.fs/Contents/Resources/newfs_udf
+-rwxr-xr-x  1 root  wheel  120416 17 Mar  2020 nfsd
+-rwxr-xr-x  1 root  wheel   31472 17 Mar  2020 nfsiod
+-rwxr-xr-x  1 root  wheel   31216 17 Mar  2020 nologin
+-r-xr-xr-x  1 root  wheel  222640 17 Mar  2020 pfctl
+-r-xr-xr-x  1 root  wheel   55344 17 Mar  2020 ping
+-r-xr-xr-x  1 root  wheel   68672 17 Mar  2020 ping6
+-r-xr-xr-x  1 root  wheel   41536 17 Mar  2020 quotacheck
+-rwxr-xr-x  1 root  wheel   33040 17 Mar  2020 reboot
+-r-xr-xr-x  1 root  wheel   46672 17 Mar  2020 route
+-r-xr-xr-x  1 root  wheel   46416 17 Mar  2020 rtsol
+-rwxr-xr-x  1 root  wheel   43360 17 Mar  2020 shutdown
+-r-xr-xr-x  1 root  wheel   37488 17 Mar  2020 umount
+
+/usr/bin:
+total 89232
+lrwxr-xr-x   1 root   wheel        74 25 Aug 19:46 2to3- -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/2to3-2.7
+lrwxr-xr-x   1 root   wheel        74 25 Aug 19:45 2to3-2.7 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/2to3-2.7
+-rwxr-xr-x   1 root   wheel     72400 17 Mar  2020 AssetCacheLocatorUtil
+-rwxr-xr-x   1 root   wheel     74304 17 Mar  2020 AssetCacheManagerUtil
+-rwxr-xr-x   1 root   wheel     58480 17 Mar  2020 AssetCacheTetheratorUtil
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 BuildStrings
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 CpMac
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 DeRez
+-rwxr-xr-x   1 root   wheel     31504 17 Mar  2020 GetFileInfo
+-rwxr-xr-x   1 root   wheel     86864 17 Mar  2020 IOAccelMemory
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 MergePef
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 MvMac
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 ResMerger
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 Rez
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 RezDet
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 RezWack
+-rwxr-xr-x   1 root   wheel     45664 17 Mar  2020 SafeEjectGPU
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 SetFile
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 SplitForks
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 UnRezWack
+-rwxr-xr-x   1 root   wheel     42864 17 Mar  2020 a2p
+-rwxr-xr-x   1 root   wheel    124816 17 Mar  2020 a2p5.18
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 actool
+-rwxr-xr-x   1 root   wheel     46928 17 Mar  2020 addftinfo
+-rwxr-xr-x   1 root   wheel     56496 17 Mar  2020 afclip
+-rwxr-xr-x   1 root   wheel    133968 17 Mar  2020 afconvert
+-rwxr-xr-x   1 root   wheel     41616 17 Mar  2020 afhash
+-rwxr-xr-x   1 root   wheel     89136 17 Mar  2020 afida
+-rwxr-xr-x   1 root   wheel     83856 17 Mar  2020 afinfo
+-rwxr-xr-x   1 root   wheel    162321 29 Feb  2020 afmtodit
+-rwxr-xr-x   1 root   wheel     57392 17 Mar  2020 afplay
+-rwxr-xr-x   1 root   wheel     46656 17 Mar  2020 afscexpand
+-rwxr-xr-x   1 root   wheel     43216 17 Mar  2020 agentxtrap
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 agvtool
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 alias
+-rwxr-xr-x   1 root   wheel     43712 17 Mar  2020 app-sso
+-rwxr-xr-x   1 root   wheel     50240 17 Mar  2020 applesingle
+lrwxr-xr-x   1 root   wheel        82 25 Aug 19:45 appletviewer -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/appletviewer
+-rwxr-xr-x   1 root   wheel     32096 17 Mar  2020 apply
+-r-xr-xr-x   1 root   wheel      2095 29 Feb  2020 apropos
+lrwxr-xr-x   1 root   wheel        73 25 Aug 19:46 apt -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/apt
+-rwxr-xr-x   1 root   wheel     31472 17 Mar  2020 ar
+-rwxr-xr-x   1 root   wheel     43456 17 Mar  2020 arch
+-rwxr-xr-x   1 root   wheel     31472 17 Mar  2020 as
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 asa
+-rwxr-xr-x   1 root   wheel    136896 17 Mar  2020 asctl
+-rwxr-xr-x   1 root   wheel    909616 17 Mar  2020 assetutil
+-r-sr-xr-x   1 root   wheel     51808 17 Mar  2020 at
+-rwxr-xr-x   1 root   wheel     90512 17 Mar  2020 atos
+-r-sr-xr-x   1 root   wheel     51808 17 Mar  2020 atq
+-r-sr-xr-x   1 root   wheel     51808 17 Mar  2020 atrm
+-rwxr-xr-x   1 root   wheel     42960 17 Mar  2020 atsutil
+-rwxr-xr-x   1 root   wheel     54320 17 Mar  2020 automator
+-r-xr-xr-x   1 root   wheel       125 29 Feb  2020 auval
+-rwxr-xr-x   1 root   wheel    146704 17 Mar  2020 auvaltool
+-rwxr-xr-x   1 root   wheel     70432 17 Mar  2020 avbdiagnose
+-rwxr-xr-x   1 root   wheel     72960 17 Mar  2020 avbutil
+-rwxr-xr-x   1 root   wheel     59808 17 Mar  2020 avconvert
+-rwxr-xr-x   1 root   wheel     42544 17 Mar  2020 avmetareadwrite
+-rwxr-xr-x   1 root   wheel    121600 17 Mar  2020 awk
+-rwxr-xr-x   1 root   wheel     44208 17 Mar  2020 banner
+-rwxr-xr-x   1 root   wheel     36368 17 Mar  2020 base64
+-rwxr-xr-x   1 root   wheel     31424 17 Mar  2020 basename
+-r-xr-xr-x   1 root   wheel      6574 29 Feb  2020 bashbug
+-r-sr-xr-x   1 root   wheel     51808 17 Mar  2020 batch
+-rwxr-xr-x   1 root   wheel     94416 17 Mar  2020 bc
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 bg
+-rwxr-xr-x   1 root   wheel     31360 17 Mar  2020 biff
+-rwxr-xr-x   1 root   wheel     58912 17 Mar  2020 binhex
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 binhex.pl
+-r-xr-xr-x   1 root   wheel      3941 29 Feb  2020 binhex5.18.pl
+-r-xr-xr-x   1 root   wheel      3941 29 Feb  2020 binhex5.28.pl
+-rwxr-xr-x   1 root   wheel    142256 17 Mar  2020 bioutil
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 bison
+-rwxr-xr-x   1 root   wheel      1958 29 Feb  2020 bitesize.d
+-rwxr-xr-x   1 root   wheel    197376 17 Mar  2020 brctl
+-rwxr-xr-x   1 root   wheel     77056 17 Mar  2020 bsdtar
+-rwxr-xr-x   1 root   wheel     35968 17 Mar  2020 bspatch
+-r-xr-xr-x   1 root   wheel       580 29 Feb  2020 bundle
+-r-xr-xr-x   1 root   wheel       582 29 Feb  2020 bundler
+-rwxr-xr-x   1 root   wheel     54480 17 Mar  2020 bunzip2
+-rwxr-xr-x   1 root   wheel     54480 17 Mar  2020 bzcat
+lrwxr-xr-x   1 root   wheel         6 25 Aug 19:45 bzcmp -> bzdiff
+-rwxr-xr-x   1 root   wheel      2101 29 Feb  2020 bzdiff
+-rwxr-xr-x   1 root   wheel     47136 17 Mar  2020 bzegrep
+-rwxr-xr-x   1 root   wheel     47136 17 Mar  2020 bzfgrep
+-rwxr-xr-x   1 root   wheel     47136 17 Mar  2020 bzgrep
+-rwxr-xr-x   1 root   wheel     54480 17 Mar  2020 bzip2
+-rwxr-xr-x   1 root   wheel     35952 17 Mar  2020 bzip2recover
+lrwxr-xr-x   1 root   wheel         6 25 Aug 19:45 bzless -> bzmore
+-rwxr-xr-x   1 root   wheel      1259 29 Feb  2020 bzmore
+lrwxr-xr-x   1 root   wheel         7 25 Aug 19:45 c++ -> clang++
+-rwxr-xr-x   1 root   wheel    444704 17 Mar  2020 c++filt
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 c2ph
+-rwxr-xr-x   1 root   wheel     36642 29 Feb  2020 c2ph5.18
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 c89
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 c99
+-rwxr-xr-x   1 root   wheel     37552 17 Mar  2020 caffeinate
+-r-xr-xr-x   1 root   wheel     45392 17 Mar  2020 cal
+-r-xr-xr-x   1 root   wheel     46720 17 Mar  2020 calendar
+-r-xr-xr-x   1 root   wheel     36992 17 Mar  2020 cancel
+-rwxr-xr-x   1 root   wheel     31824 17 Mar  2020 cap_mkdb
+lrwxr-xr-x   1 root   wheel         3 25 Aug 19:45 captoinfo -> tic
+lrwxr-xr-x   1 root   wheel         5 25 Aug 19:46 cc -> clang
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 cd
+-rwxr-xr-x   1 root   wheel    105040 17 Mar  2020 certtool
+-rwxr-xr-x   1 root   wheel     40016 17 Mar  2020 checknr
+-rwxr-xr-x   1 root   wheel     31872 17 Mar  2020 chflags
+-rwxr-xr-x   1 root   wheel     46240 17 Mar  2020 chfn
+-rwxr-xr-x   1 root   wheel     36416 17 Mar  2020 chgrp
+-rwxr-xr-x   1 root   wheel     46240 17 Mar  2020 chpass
+-rwxr-xr-x   1 root   wheel     46240 17 Mar  2020 chsh
+-rwxr-xr-x   1 root   wheel     35888 17 Mar  2020 cksum
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 clang
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 clang++
+-rwxr-xr-x   1 root   wheel     31136 17 Mar  2020 clear
+-rwxr-xr-x   1 root   wheel     45792 17 Mar  2020 cmp
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 cmpdylib
+-rwxr-xr-x   1 root   wheel    113968 17 Mar  2020 codesign
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 codesign_allocate
+-rwxr-xr-x   1 root   wheel     36080 17 Mar  2020 col
+-rwxr-xr-x   1 root   wheel     31696 17 Mar  2020 colcrt
+-rwxr-xr-x   1 root   wheel     70784 17 Mar  2020 colldef
+-rwxr-xr-x   1 root   wheel     31616 17 Mar  2020 colrm
+-rwxr-xr-x   1 root   wheel     36624 17 Mar  2020 column
+-rwxr-xr-x   1 root   wheel     31776 17 Mar  2020 comm
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 command
+-rwxr-xr-x   1 root   wheel     40944 17 Mar  2020 compress
+-rwxr-xr-x   1 root   wheel     36160 17 Mar  2020 compression_tool
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 config_data
+-rwxr-xr-x   1 root   wheel      7265 29 Feb  2020 config_data5.18
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 corelist
+-rwxr-xr-x   1 root   wheel     12790 29 Feb  2020 corelist5.18
+-rwxr-xr-x   1 root   wheel     15123 29 Feb  2020 corelist5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 cpan
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 cpan2dist
+-rwxr-xr-x   1 root   wheel     21859 29 Feb  2020 cpan2dist5.18
+-rwxr-xr-x   1 root   wheel      5895 29 Feb  2020 cpan5.18
+-rwxr-xr-x   1 root   wheel      8191 29 Feb  2020 cpan5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 cpanp
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 cpanp-run-perl
+-rwxr-xr-x   1 root   wheel       580 29 Feb  2020 cpanp-run-perl5.18
+-rwxr-xr-x   1 root   wheel      3433 29 Feb  2020 cpanp5.18
+-rwxr-xr-x   1 root   wheel     57968 17 Mar  2020 cpio
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 cpp
+-rwxr-xr-x   1 root   wheel      1402 29 Feb  2020 cpu_profiler.d
+-rwxr-xr-x   1 root   wheel     31744 17 Mar  2020 cpuctl
+-rwxr-xr-x   1 root   wheel      1540 29 Feb  2020 cpuwalk.d
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 crc32
+-r-xr-xr-x   1 root   wheel       871 29 Feb  2020 crc325.18
+-r-xr-xr-x   1 root   wheel       871 29 Feb  2020 crc325.28
+-rwxr-xr-x   1 root   wheel       342 29 Feb  2020 creatbyproc.d
+-rwxr-xr-x   1 root   wheel     48496 17 Mar  2020 crlrefresh
+-rwsr-xr-x   1 root   wheel     52320 17 Mar  2020 crontab
+-rwxr-xr-x   1 root   wheel     14990 29 Feb  2020 csdiagnose
+-rwxr-xr-x   1 root   wheel    547232 17 Mar  2020 csgather
+-rwxr-xr-x   1 root   wheel     37136 17 Mar  2020 csplit
+-rwxr-xr-x   1 root   wheel     50960 17 Mar  2020 csreq
+-rwxr-xr-x   1 root   wheel     42912 17 Mar  2020 csrutil
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 ctags
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 ctf_insert
+-r-xr-xr-x   1 _uucp  wheel    142576 17 Mar  2020 cu
+-r-xr-xr-x   1 root   wheel      2527 11 Mar  2020 cups-config
+-r-xr-xr-x   1 root   wheel     76544 17 Mar  2020 cupstestppd
+-rwxr-xr-x   1 root   wheel    207808 17 Mar  2020 curl
+-rwxr-xr-x   1 root   wheel      5441 29 Feb  2020 curl-config
+-rwxr-xr-x   1 root   wheel     36832 17 Mar  2020 cut
+lrwxr-xr-x   1 root   wheel        59 25 Aug 19:46 cvaffinity -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvaffinity
+lrwxr-xr-x   1 root   wheel        53 25 Aug 19:46 cvcp -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvcp
+lrwxr-xr-x   1 root   wheel        56 25 Aug 19:45 cvmkdir -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvmkdir
+lrwxr-xr-x   1 root   wheel        57 25 Aug 19:45 cvmkfile -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvmkfile
+-rwxr-xr-x   1 root   wheel      7163 29 Feb  2020 dappprof
+-rwxr-xr-x   1 root   wheel      7878 29 Feb  2020 dapptrace
+-rwxr-xr-x   1 root   wheel    152704 17 Mar  2020 darwinup
+-r-xr-xr-x   1 root   wheel   1032704 17 Mar  2020 db_archive
+-r-xr-xr-x   1 root   wheel   1032784 17 Mar  2020 db_checkpoint
+-r-xr-xr-x   1 root   wheel   1045040 17 Mar  2020 db_codegen
+-r-xr-xr-x   1 root   wheel   1032784 17 Mar  2020 db_deadlock
+-r-xr-xr-x   1 root   wheel   1032832 17 Mar  2020 db_dump
+-r-xr-xr-x   1 root   wheel   1037072 17 Mar  2020 db_hotbackup
+-r-xr-xr-x   1 root   wheel   1041536 17 Mar  2020 db_load
+-r-xr-xr-x   1 root   wheel   1067312 17 Mar  2020 db_printlog
+-r-xr-xr-x   1 root   wheel   1032848 17 Mar  2020 db_recover
+-r-xr-xr-x   1 root   wheel   1032704 17 Mar  2020 db_stat
+-r-xr-xr-x   1 root   wheel   1032704 17 Mar  2020 db_upgrade
+-r-xr-xr-x   1 root   wheel   1032720 17 Mar  2020 db_verify
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 dbicadmin
+-r-xr-xr-x   1 root   wheel      7195 29 Feb  2020 dbicadmin5.18
+-r-xr-xr-x   1 root   wheel      7195 29 Feb  2020 dbicadmin5.28
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 dbilogstrip
+-r-xr-xr-x   1 root   wheel      1469 29 Feb  2020 dbilogstrip5.18
+-r-xr-xr-x   1 root   wheel      1469 29 Feb  2020 dbilogstrip5.28
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 dbiprof
+-r-xr-xr-x   1 root   wheel      6295 29 Feb  2020 dbiprof5.18
+-r-xr-xr-x   1 root   wheel      6295 29 Feb  2020 dbiprof5.28
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 dbiproxy
+-r-xr-xr-x   1 root   wheel      5479 29 Feb  2020 dbiproxy5.18
+-r-xr-xr-x   1 root   wheel      5479 29 Feb  2020 dbiproxy5.28
+-rwxr-xr-x   1 root   wheel     59344 17 Mar  2020 dc
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 debinhex.pl
+-r-xr-xr-x   1 root   wheel      5882 29 Feb  2020 debinhex5.18.pl
+-r-xr-xr-x   1 root   wheel      5882 29 Feb  2020 debinhex5.28.pl
+-rwxr-xr-x   1 root   wheel     53200 17 Mar  2020 defaults
+-rwxr-xr-x   1 root   wheel   1876768 17 Mar  2020 delv
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 desdp
+-rwxr-xr-x   1 root   wheel      2391 29 Feb  2020 diagnose-fu
+-rwxr-xr-x   1 root   wheel    118784 17 Mar  2020 diff
+-rwxr-xr-x   1 root   wheel     50240 17 Mar  2020 diff3
+-rwxr-xr-x   1 root   wheel     54192 17 Mar  2020 diffstat
+-rwxr-xr-x   1 root   wheel   1878224 17 Mar  2020 dig
+-rwxr-xr-x   1 root   wheel     31248 17 Mar  2020 dirname
+-rwxr-xr-x   1 root   wheel      1290 29 Feb  2020 dispqlen.d
+-rwxr-xr-x   1 root   wheel     47824 17 Mar  2020 ditto
+-rwxr-xr-x   1 root   wheel     42032 17 Mar  2020 dmc
+-rwxr-xr-x   1 root   wheel     75968 17 Mar  2020 dns-sd
+-rwxr-xr-x   1 root   wheel    273200 17 Mar  2020 drutil
+-rwxr-xr-x   1 root   wheel     47360 17 Mar  2020 dscacheutil
+-rwxr-xr-x   1 root   wheel    199360 17 Mar  2020 dscl
+-rwxr-xr-x   1 root   wheel     31152 17 Mar  2020 dserr
+-rwxr-xr-x   1 root   wheel     46480 17 Mar  2020 dsexport
+-rwxr-xr-x   1 root   wheel     88912 17 Mar  2020 dsimport
+-rwxr-xr-x   1 root   wheel     36768 17 Mar  2020 dsmemberutil
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 dsymutil
+-rwxr-xr-x   1 root   wheel     30607 29 Feb  2020 dtruss
+-rwxr-xr-x   1 root   wheel     36784 17 Mar  2020 du
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 dwarfdump
+-rwxr-xr-x   2 root   wheel       544 29 Feb  2020 easy_install
+-rwxr-xr-x   2 root   wheel       544 29 Feb  2020 easy_install-2.7
+-rwxr-xr-x   1 root   wheel     47136 17 Mar  2020 egrep
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 enc2xs
+-rwxr-xr-x   1 root   wheel     39189 29 Feb  2020 enc2xs5.18
+-rwxr-xr-x   1 root   wheel     42079 29 Feb  2020 enc2xs5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 encguess
+-rwxr-xr-x   1 root   wheel      3101 29 Feb  2020 encguess5.28
+-rwxr-xr-x   1 root   wheel     41984 17 Mar  2020 encode_keychange
+-rwxr-xr-x   1 root   wheel     36640 17 Mar  2020 env
+-rwxr-xr-x   1 root   wheel    149952 17 Mar  2020 eqn
+-r-xr-xr-x   1 root   wheel      5136 29 Feb  2020 erb
+-rwxr-xr-x   1 root   wheel      4516 29 Feb  2020 errinfo
+lrwxr-xr-x   1 root   wheel         3 25 Aug 19:46 ex -> vim
+-rwxr-xr-x   1 root   wheel      5115 29 Feb  2020 execsnoop
+-rwxr-xr-x   1 root   wheel     31696 17 Mar  2020 expand
+-r-xr-xr-x   1 root   wheel     36192 17 Mar  2020 expect
+lrwxr-xr-x   1 root   wheel        78 25 Aug 19:45 extcheck -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/extcheck
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 eyapp
+-r-xr-xr-x   1 root   wheel     12841 29 Feb  2020 eyapp5.18
+-r-xr-xr-x   1 root   wheel     12841 29 Feb  2020 eyapp5.28
+-rwxr-xr-x   1 root   wheel     30944 17 Mar  2020 false
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 fc
+-rwxr-xr-x   1 root   wheel      2668 29 Feb  2020 fddist
+-rwxr-xr-x   1 root   wheel    324320 17 Mar  2020 fdesetup
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 fg
+-rwxr-xr-x   1 root   wheel     47136 17 Mar  2020 fgrep
+-rwxr-xr-x   1 root   wheel    141248 17 Mar  2020 file
+-rwxr-xr-x   1 root   wheel       272 29 Feb  2020 filebyproc.d
+-rwxr-xr-x   1 root   wheel   6108544 17 Mar  2020 fileproviderctl
+-rwxr-xr-x   1 root   wheel     83856 17 Mar  2020 filtercalltree
+-rwxr-xr-x   1 root   wheel     65040 17 Mar  2020 find
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 find2perl
+-rwxr-xr-x   1 root   wheel     23634 29 Feb  2020 find2perl5.18
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 findrule
+-r-xr-xr-x   1 root   wheel      3418 29 Feb  2020 findrule5.18
+-r-xr-xr-x   1 root   wheel      3418 29 Feb  2020 findrule5.28
+-rwxr-xr-x   1 root   wheel     47104 17 Mar  2020 finger
+-rwxr-xr-x   1 root   wheel     15523 29 Feb  2020 fixproc
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 flex
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 flex++
+-rwxr-xr-x   1 root   wheel     36336 17 Mar  2020 fmt
+-rwxr-xr-x   1 root   wheel     31920 17 Mar  2020 fold
+lrwxr-xr-x   1 root   wheel       126 25 Aug 19:45 fontrestore -> ../../System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/fontmover
+-rwxr-xr-x   1 root   wheel    209920 17 Mar  2020 footprint
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 format-sql
+-r-xr-xr-x   1 root   wheel       448 29 Feb  2020 format-sql5.18
+-r-xr-xr-x   1 root   wheel       448 29 Feb  2020 format-sql5.28
+-rwxr-xr-x   1 root   wheel     31840 17 Mar  2020 from
+-rwxr-xr-x   1 root   wheel     73696 17 Mar  2020 fs_usage
+-rwxr-xr-x   1 root   wheel     48688 17 Mar  2020 funzip
+-r-xr-xr-x   1 root   wheel      2610 29 Feb  2020 fuser
+-rwxr-xr-x   1 root   wheel     47104 17 Mar  2020 fwkdp
+-rwxr-xr-x   1 root   wheel     55520 17 Mar  2020 fwkpfv
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 g++
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 gatherheaderdoc
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 gcc
+-rwxr-xr-x   1 root   wheel     97840 17 Mar  2020 gcore
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 gcov
+-rwxr-xr-x   1 root   wheel      7198 29 Feb  2020 gdiffmk
+-r-xr-xr-x   1 root   wheel       596 29 Feb  2020 gem
+-r-xr-xr-x   1 root   wheel     79113 29 Feb  2020 gen_bridge_metadata
+-rwxr-xr-x   1 root   wheel     40608 17 Mar  2020 gencat
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 genstrings
+-rwxr-xr-x   1 root   wheel     44320 17 Mar  2020 getconf
+-rwxr-xr-x   1 root   wheel     31120 17 Mar  2020 getopt
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 getopts
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 git
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 git-receive-pack
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 git-shell
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 git-upload-archive
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 git-upload-pack
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 gm4
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 gnumake
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 gperf
+-rwxr-xr-x   1 root   wheel     47136 17 Mar  2020 grep
+-rwxr-xr-x   1 root   wheel     81360 17 Mar  2020 grn
+-rwxr-xr-x   1 root   wheel     96400 17 Mar  2020 grodvi
+-rwxr-xr-x   1 root   wheel     81360 17 Mar  2020 groff
+-rwxr-xr-x   1 root   wheel      7074 29 Feb  2020 groffer
+-rwxr-xr-x   1 root   wheel      2471 29 Feb  2020 grog
+-rwxr-xr-x   1 root   wheel    100032 17 Mar  2020 grolbp
+-rwxr-xr-x   1 root   wheel     95952 17 Mar  2020 grolj4
+-rwxr-xr-x   1 root   wheel    129888 17 Mar  2020 grops
+-rwxr-xr-x   1 root   wheel     96128 17 Mar  2020 grotty
+-rwxr-xr-x   1 root   wheel     36368 17 Mar  2020 groups
+-rwxr-xr-x   1 root   wheel     66896 17 Mar  2020 gunzip
+-rwxr-xr-x   1 root   wheel     66896 17 Mar  2020 gzcat
+-rwxr-xr-x   1 root   wheel      4085 29 Feb  2020 gzexe
+-rwxr-xr-x   1 root   wheel     60288 17 Mar  2020 gzip
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 h2ph
+-rwxr-xr-x   1 root   wheel     28167 29 Feb  2020 h2ph5.18
+-rwxr-xr-x   1 root   wheel     29259 29 Feb  2020 h2ph5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 h2xs
+-rwxr-xr-x   1 root   wheel     60725 29 Feb  2020 h2xs5.18
+-rwxr-xr-x   1 root   wheel     60901 29 Feb  2020 h2xs5.28
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 hash
+-rwxr-xr-x   1 root   wheel     31072 17 Mar  2020 hdid
+-rwxr-xr-x   1 root   wheel    349376 17 Mar  2020 hdiutil
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 hdxml2manxml
+-rwxr-xr-x   1 root   wheel     32160 17 Mar  2020 head
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 headerdoc2html
+-rwxr-xr-x   1 root   wheel    119728 17 Mar  2020 heap
+-rwxr-xr-x   1 root   wheel     46000 17 Mar  2020 hexdump
+-rwxr-xr-x   1 root   wheel     52464 17 Mar  2020 hidutil
+-rwxr-xr-x   1 root   wheel    123392 17 Mar  2020 hiutil
+-rwxr-xr-x   1 root   wheel   1861632 17 Mar  2020 host
+-rwxr-xr-x   1 root   wheel     31760 17 Mar  2020 hostinfo
+-rwxr-xr-x   1 root   wheel      1939 29 Feb  2020 hotspot.d
+-rwxr-xr-x   1 root   wheel    135728 17 Mar  2020 hpftodit
+-rwxr-xr-x   1 root   wheel    101376 17 Mar  2020 hpmdiagnose
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 htmltree
+-r-xr-xr-x   1 root   wheel      1177 29 Feb  2020 htmltree5.18
+-r-xr-xr-x   1 root   wheel      1177 29 Feb  2020 htmltree5.28
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 ibtool
+-rwxr-xr-x   1 root   wheel     46064 17 Mar  2020 iconutil
+-rwxr-xr-x   1 root   wheel     45328 17 Mar  2020 iconv
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 ictool
+-rwxr-xr-x   1 root   wheel     36368 17 Mar  2020 id
+lrwxr-xr-x   1 root   wheel        73 25 Aug 19:45 idle -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/idle2.7
+lrwxr-xr-x   1 root   wheel        73 25 Aug 19:45 idle2.7 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/idle2.7
+lrwxr-xr-x   1 root   wheel        74 25 Aug 19:45 idlj -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/idlj
+-rwxr-xr-x   1 root   wheel      8545  5 Mar  2020 imptrace
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 indent
+-rwxr-xr-x   1 root   wheel     57504 17 Mar  2020 indxbib
+-rwxr-xr-x   1 root   wheel    184320 17 Mar  2020 info
+-rwxr-xr-x   1 root   wheel     67792 17 Mar  2020 infocmp
+-rwxr-xr-x   1 root   wheel     68560 17 Mar  2020 infokey
+lrwxr-xr-x   1 root   wheel         3 25 Aug 19:45 infotocap -> tic
+-rwxr-xr-x   1 root   wheel     41776 17 Mar  2020 install
+-rwxr-xr-x   1 root   wheel     73216 17 Mar  2020 install-info
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 install_name_tool
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 instmodsh
+-rwxr-xr-x   1 root   wheel      4288 29 Feb  2020 instmodsh5.18
+-rwxr-xr-x   1 root   wheel      4322 29 Feb  2020 instmodsh5.28
+-rwxr-xr-x   1 root   wheel     31504 17 Mar  2020 instruments
+-rwxr-xr-x   1 root   wheel      1976 29 Feb  2020 iofile.d
+-rwxr-xr-x   1 root   wheel      1573 29 Feb  2020 iofileb.d
+-rwxr-xr-x   1 root   wheel      6604 29 Feb  2020 iopattern
+-rwxr-xr-x   1 root   wheel      5946 29 Feb  2020 iopending
+-rwxr-xr-x   1 root   wheel     12137 29 Feb  2020 iosnoop
+-rwxr-xr-x   1 root   wheel     11884 29 Feb  2020 iotop
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 ip2cc
+-r-xr-xr-x   1 root   wheel      2116 29 Feb  2020 ip2cc5.18
+-r-xr-xr-x   1 root   wheel      2116 29 Feb  2020 ip2cc5.28
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 ipcount
+-r-xr-xr-x   1 root   wheel      3728 29 Feb  2020 ipcount5.18
+-r-xr-xr-x   1 root   wheel      3728 29 Feb  2020 ipcount5.28
+-rwxr-xr-x   1 root   wheel     31712 17 Mar  2020 ipcrm
+-rwxr-xr-x   1 root   wheel     40160 17 Mar  2020 ipcs
+-r-xr-xr-x   1 root   wheel    126112 17 Mar  2020 ippeveprinter
+-r-xr-xr-x   1 root   wheel     56416 17 Mar  2020 ippfind
+-r-xr-xr-x   1 root   wheel     89040 17 Mar  2020 ipptool
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 iprofiler
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 iptab
+-r-xr-xr-x   1 root   wheel       986 29 Feb  2020 iptab5.18
+-r-xr-xr-x   1 root   wheel       986 29 Feb  2020 iptab5.28
+-r-xr-xr-x   1 root   wheel       558 29 Feb  2020 irb
+lrwxr-xr-x   1 root   wheel        73 25 Aug 19:46 jar -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jar
+lrwxr-xr-x   1 root   wheel        79 25 Aug 19:45 jarsigner -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jarsigner
+lrwxr-xr-x   1 root   wheel        74 25 Aug 19:46 java -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/java
+lrwxr-xr-x   1 root   wheel        75 25 Aug 19:46 javac -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/javac
+lrwxr-xr-x   1 root   wheel        77 25 Aug 19:46 javadoc -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/javadoc
+lrwxr-xr-x   1 root   wheel        75 25 Aug 19:45 javah -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/javah
+lrwxr-xr-x   1 root   wheel        75 25 Aug 19:46 javap -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/javap
+lrwxr-xr-x   1 root   wheel        82 25 Aug 19:45 javapackager -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/javapackager
+lrwxr-xr-x   1 root   wheel        76 25 Aug 19:46 javaws -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/javaws
+lrwxr-xr-x   1 root   wheel        74 25 Aug 19:46 jcmd -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jcmd
+lrwxr-xr-x   1 root   wheel        78 25 Aug 19:46 jconsole -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jconsole
+lrwxr-xr-x   1 root   wheel        78 25 Aug 19:46 jcontrol -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jcontrol
+lrwxr-xr-x   1 root   wheel        73 25 Aug 19:45 jdb -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jdb
+lrwxr-xr-x   1 root   wheel        75 25 Aug 19:46 jdeps -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jdeps
+lrwxr-xr-x   1 root   wheel        74 25 Aug 19:46 jhat -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jhat
+lrwxr-xr-x   1 root   wheel        75 25 Aug 19:46 jhsdb -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jhsdb
+lrwxr-xr-x   1 root   wheel        76 25 Aug 19:46 jimage -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jimage
+lrwxr-xr-x   1 root   wheel        75 25 Aug 19:46 jinfo -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jinfo
+lrwxr-xr-x   1 root   wheel        73 25 Aug 19:46 jjs -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jjs
+lrwxr-xr-x   1 root   wheel        74 25 Aug 19:46 jmap -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jmap
+lrwxr-xr-x   1 root   wheel        73 25 Aug 19:45 jmc -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jmc
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 jobs
+-rwxr-xr-x   1 root   wheel     36656 17 Mar  2020 join
+-rwxr-xr-x   1 root   wheel     36224 17 Mar  2020 jot
+lrwxr-xr-x   1 root   wheel        73 25 Aug 19:46 jps -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jps
+lrwxr-xr-x   1 root   wheel        80 25 Aug 19:46 jrunscript -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jrunscript
+lrwxr-xr-x   1 root   wheel        79 25 Aug 19:46 jsadebugd -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jsadebugd
+lrwxr-xr-x   1 root   wheel        76 25 Aug 19:46 jshell -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jshell
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 json_pp
+-rwxr-xr-x   1 root   wheel      3953 29 Feb  2020 json_pp5.18
+-rwxr-xr-x   1 root   wheel      4414 29 Feb  2020 json_pp5.28
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 json_xs
+-r-xr-xr-x   1 root   wheel      7102 29 Feb  2020 json_xs5.28
+lrwxr-xr-x   1 root   wheel        76 25 Aug 19:45 jstack -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jstack
+lrwxr-xr-x   1 root   wheel        75 25 Aug 19:46 jstat -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jstat
+lrwxr-xr-x   1 root   wheel        76 25 Aug 19:46 jstatd -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jstatd
+lrwxr-xr-x   1 root   wheel        79 25 Aug 19:46 jvisualvm -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/jvisualvm
+-rwxr-xr-x   1 root   wheel     87072 17 Mar  2020 kcc
+-rwxr-xr-x   1 root   wheel     50352 17 Mar  2020 kdestroy
+-rwxr-xr-x   1 root   wheel    108896 17 Mar  2020 kextutil
+lrwxr-xr-x   1 root   wheel        77 25 Aug 19:46 keytool -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/keytool
+-rwxr-xr-x   1 root   wheel     51536 17 Mar  2020 kgetcred
+-rwxr-xr-x   1 root   wheel      1621 29 Feb  2020 kill.d
+-rwxr-xr-x   1 root   wheel     37120 17 Mar  2020 killall
+-rwxr-xr-x   1 root   wheel     72960 17 Mar  2020 kinit
+lrwxr-xr-x   1 root   wheel         3 25 Aug 19:46 klist -> kcc
+-rwxr-xr-x   1 root   wheel     55536 17 Mar  2020 kpasswd
+-rwxr-xr-x   1 root   wheel      3253 29 Feb  2020 krb5-config
+lrwxr-xr-x   1 root   wheel         3 25 Aug 19:46 kswitch -> kcc
+-rwxr-xr-x   1 root   wheel     88704 17 Mar  2020 ktrace
+-rwxr-xr-x   1 root   wheel     31744 17 Mar  2020 lam
+-rwxr-xr-x   1 root   wheel     36528 17 Mar  2020 last
+-rwxr-xr-x   1 root   wheel     32048 17 Mar  2020 lastcomm
+-rwxr-xr-x   1 root   wheel      2297 29 Feb  2020 lastwords
+-rwxr-xr-x   1 root   wheel     58400 17 Mar  2020 latency
+-rwxr-xr-x   1 root   wheel    798224 17 Mar  2020 layerutil
+-rwxr-xr-x   1 root   wheel     31472 17 Mar  2020 ld
+lrwxr-xr-x   1 root   wheel        10 25 Aug 19:46 ldapadd -> ldapmodify
+-rwxr-xr-x   1 root   wheel    319072 17 Mar  2020 ldapcompare
+-rwxr-xr-x   1 root   wheel    319008 17 Mar  2020 ldapdelete
+-rwxr-xr-x   1 root   wheel    319072 17 Mar  2020 ldapexop
+-rwxr-xr-x   1 root   wheel    327584 17 Mar  2020 ldapmodify
+-rwxr-xr-x   1 root   wheel    319040 17 Mar  2020 ldapmodrdn
+-rwxr-xr-x   1 root   wheel    314800 17 Mar  2020 ldappasswd
+-rwxr-xr-x   1 root   wheel    347552 17 Mar  2020 ldapsearch
+-rwxr-xr-x   1 root   wheel    265360 17 Mar  2020 ldapurl
+-rwxr-xr-x   1 root   wheel    314880 17 Mar  2020 ldapwhoami
+-rwxr-xr-x   1 root   wheel    181376 17 Mar  2020 leaks
+-r-xr-xr-x   1 root   wheel     31536 17 Mar  2020 leave
+-rwxr-xr-x   1 root   wheel    146976 17 Mar  2020 less
+-rwxr-xr-x   1 root   wheel     31440 17 Mar  2020 lessecho
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 lex
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 libnetcfg
+-rwxr-xr-x   1 root   wheel     15754 29 Feb  2020 libnetcfg5.18
+-rwxr-xr-x   1 root   wheel     15810 29 Feb  2020 libnetcfg5.28
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 libtool
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 lipo
+-rwxr-xr-x   1 root   wheel     63680 17 Mar  2020 lkbib
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 lldb
+lrwxr-xr-x   1 root   wheel         7 25 Aug 19:46 llvm-g++ -> clang++
+lrwxr-xr-x   1 root   wheel         5 25 Aug 19:46 llvm-gcc -> clang
+-rwxr-xr-x   1 root   wheel      1936 29 Feb  2020 loads.d
+-rwxr-xr-x   1 root   wheel     77440 17 Mar  2020 locale
+-rwxr-xr-x   1 root   wheel     30650 29 Feb  2020 localedef
+-rwxr-xr-x   1 root   wheel     36560 17 Mar  2020 locate
+-rwxr-xr-x   1 root   wheel     70672 17 Mar  2020 lockstat
+-rwxr-xr-x   1 root   wheel    276880 17 Mar  2020 log
+-r-xr-xr-x   1 root   wheel     31968 17 Mar  2020 logger
+-r-sr-xr-x   1 root   wheel     49088 17 Mar  2020 login
+-rwxr-xr-x   1 root   wheel     31296 17 Mar  2020 logname
+-rwxr-xr-x   1 root   wheel     31936 17 Mar  2020 look
+-rwxr-xr-x   1 root   wheel     63920 17 Mar  2020 lookbib
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 lorder
+-r-xr-xr-x   1 root   wheel     41616 17 Mar  2020 lp
+-r-xr-xr-x   1 root   wheel     37568 17 Mar  2020 lpoptions
+-r-xr-xr-x   1 root   wheel     37328 17 Mar  2020 lpq
+-r-xr-xr-x   1 root   wheel     37248 17 Mar  2020 lpr
+-r-xr-xr-x   1 root   wheel     31856 17 Mar  2020 lprm
+-r-xr-xr-x   1 root   wheel     54560 17 Mar  2020 lpstat
+-rwxr-xr-x   1 root   wheel    241184 17 Mar  2020 lsappinfo
+-rwxr-xr-x   1 root   wheel     42352 17 Mar  2020 lsbom
+-rwxr-xr-x   1 root   wheel     45136 17 Mar  2020 lskq
+-rwxr-xr-x   1 root   wheel     61776 17 Mar  2020 lsm
+-rwxr-xr-x   1 root   wheel     59040 17 Mar  2020 lsmp
+-rwxr-xr-x   1 root   wheel     31472 17 Mar  2020 lsvfs
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 lwp-download
+-r-xr-xr-x   1 root   wheel      8639 29 Feb  2020 lwp-download5.18
+-r-xr-xr-x   1 root   wheel      8639 29 Feb  2020 lwp-download5.28
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 lwp-dump
+-r-xr-xr-x   1 root   wheel      2802 29 Feb  2020 lwp-dump5.18
+-r-xr-xr-x   1 root   wheel      2802 29 Feb  2020 lwp-dump5.28
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 lwp-mirror
+-r-xr-xr-x   1 root   wheel      2482 29 Feb  2020 lwp-mirror5.18
+-r-xr-xr-x   1 root   wheel      2482 29 Feb  2020 lwp-mirror5.28
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 lwp-request
+-r-xr-xr-x   1 root   wheel     15063 29 Feb  2020 lwp-request5.18
+-r-xr-xr-x   1 root   wheel     15063 29 Feb  2020 lwp-request5.28
+-rwxr-xr-x   1 root   wheel     31472 17 Mar  2020 m4
+-rwxr-xr-x   1 root   wheel     55168 17 Mar  2020 macbinary
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 macerror
+-r-xr-xr-x   1 root   wheel       728 29 Feb  2020 macerror5.18
+-r-xr-xr-x   1 root   wheel       728 29 Feb  2020 macerror5.28
+-rwxr-xr-x   1 root   wheel     43456 17 Mar  2020 machine
+-rwxr-xr-x   1 root   wheel     99008 17 Mar  2020 mail
+lrwxr-xr-x   1 root   wheel        16 25 Aug 19:46 mailq -> ../sbin/sendmail
+-rwxr-xr-x   1 root   wheel     99008 17 Mar  2020 mailx
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 make
+-rwxr-xr-x   1 root   wheel    252224 17 Mar  2020 makeinfo
+-rwxr-xr-x   1 root   wheel    131152 17 Mar  2020 malloc_history
+-r-xr-xr-x   1 root   wheel     83424 17 Mar  2020 man
+lrwxr-xr-x   1 root   wheel         3 25 Aug 19:46 manpath -> man
+-rwxr-xr-x   1 root   wheel    101792 17 Mar  2020 mcxquery
+-rwxr-xr-x   1 root   wheel     36592 17 Mar  2020 mcxrefresh
+-rwxr-xr-x   1 root   wheel    161152 17 Mar  2020 mddiagnose
+-rwxr-xr-x   1 root   wheel     42512 17 Mar  2020 mdfind
+-rwxr-xr-x   1 root   wheel    302128 17 Mar  2020 mdimport
+-rwxr-xr-x   1 root   wheel     37232 17 Mar  2020 mdls
+-rwxr-xr-x   1 root   wheel    127312 17 Mar  2020 mdutil
+-rwxr-xr-x   1 root   wheel     44944 17 Mar  2020 memory_pressure
+-r-xr-xr-x   1 root   wheel     31360 17 Mar  2020 mesg
+-rwxr-xr-x   1 root   wheel    170576 17 Mar  2020 mg
+-rwxr-xr-x   1 root   wheel     43760 29 Feb  2020 mib2c
+-rwxr-xr-x   1 root   wheel      8780 29 Feb  2020 mib2c-update
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 mig
+-rwxr-xr-x   1 root   wheel     33024 17 Mar  2020 mkbom
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 mkdep
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 mkfifo
+-rwxr-xr-x   1 root   wheel     53472 17 Mar  2020 mklocale
+-rwxr-xr-x   1 root   wheel     31920 17 Mar  2020 mktemp
+-rwxr-xr-x   1 root   wheel      2975 29 Feb  2020 mmroff
+-rwxr-xr-x   1 root   wheel     41840 17 Mar  2020 mnthome
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 moo-outdated
+-r-xr-xr-x   1 root   wheel       448 29 Feb  2020 moo-outdated5.18
+-r-xr-xr-x   1 root   wheel       448 29 Feb  2020 moo-outdated5.28
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 moose-outdated
+-r-xr-xr-x   1 root   wheel       455 29 Feb  2020 moose-outdated5.18
+-r-xr-xr-x   1 root   wheel       455 29 Feb  2020 moose-outdated5.28
+-rwxr-xr-x   1 root   wheel    146976 17 Mar  2020 more
+-r-xr-xr-x   1 root   wheel      1271 29 Feb  2020 mp2bug
+-rwxr-xr-x   1 root   wheel     42448 17 Mar  2020 msgs
+-rwxr-xr-x   1 root   wheel    154416 17 Mar  2020 nano
+lrwxr-xr-x   1 root   wheel        82 25 Aug 19:45 native2ascii -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/native2ascii
+-rwxr-xr-x   1 root   wheel     43248 17 Mar  2020 nbdst
+-r-xr-xr-x   1 root   wheel     64336 17 Mar  2020 nc
+-r-xr-xr-x   1 root   wheel     45392 17 Mar  2020 ncal
+-rwxr-xr-x   1 root   wheel     36720 17 Mar  2020 ncctl
+lrwxr-xr-x   1 root   wheel         7 25 Aug 19:46 ncdestroy -> ./ncctl
+lrwxr-xr-x   1 root   wheel         7 25 Aug 19:46 ncinit -> ./ncctl
+lrwxr-xr-x   1 root   wheel         7 25 Aug 19:45 nclist -> ./ncctl
+-rwxr-xr-x   1 root   wheel      4977 29 Feb  2020 ncurses5.4-config
+-rwxr-xr-x   1 root   wheel       271 29 Feb  2020 neqn
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 net-server
+-r-xr-xr-x   1 root   wheel      3429 29 Feb  2020 net-server5.18
+-r-xr-xr-x   1 root   wheel      3429 29 Feb  2020 net-server5.28
+-rwxr-xr-x   1 root   wheel     78699 29 Feb  2020 net-snmp-cert
+-rwxr-xr-x   1 root   wheel     24832 29 Feb  2020 net-snmp-config
+-rwxr-xr-x   1 root   wheel      3640 29 Feb  2020 net-snmp-create-v3-user
+-rwxr-xr-x   1 root   wheel     80800 17 Mar  2020 nettop
+lrwxr-xr-x   1 root   wheel        16 25 Aug 19:45 newaliases -> ../sbin/sendmail
+-r-sr-xr-x   1 root   wheel     37136 17 Mar  2020 newgrp
+-rwxr-xr-x   1 root   wheel      4376 29 Feb  2020 newproc.d
+-rwxr-xr-x   1 root   wheel     57632 17 Mar  2020 nfsstat
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 nice
+-rwxr-xr-x   1 root   wheel     36672 17 Mar  2020 nl
+-rwxr-xr-x   1 root   wheel     31472 17 Mar  2020 nm
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 nmedit
+-rwxr-xr-x   1 root   wheel     31760 17 Mar  2020 nohup
+-rwxr-xr-x   1 root   wheel     42800 17 Mar  2020 notifyutil
+-rwxr-xr-x   1 root   wheel      2357 29 Feb  2020 nroff
+-rwxr-xr-x   1 root   wheel    101984 17 Mar  2020 nscurl
+-rwxr-xr-x   1 root   wheel   1865792 17 Mar  2020 nslookup
+-rwxr-xr-x   1 root   wheel   1852016 17 Mar  2020 nsupdate
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 objdump
+-rwxr-xr-x   1 root   wheel     54064 17 Mar  2020 ocspcheck
+-rwxr-xr-x   1 root   wheel     46000 17 Mar  2020 od
+-rwxr-xr-x   1 root   wheel    112608 17 Mar  2020 odutil
+-rwxr-xr-x   1 root   wheel    119360 17 Mar  2020 open
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 opendiff
+-rwxr-xr-x   1 root   wheel      8038 29 Feb  2020 opensnoop
+-rwxr-xr-x   1 root   wheel    510656 17 Mar  2020 openssl
+lrwxr-xr-x   1 root   wheel        74 25 Aug 19:46 orbd -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/orbd
+-rwxr-xr-x   1 root   wheel     55232 17 Mar  2020 osacompile
+-rwxr-xr-x   1 root   wheel     33088 17 Mar  2020 osadecompile
+-rwxr-xr-x   1 root   wheel     31728 17 Mar  2020 osalang
+-rwxr-xr-x   1 root   wheel     56528 17 Mar  2020 osascript
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 otool
+lrwxr-xr-x   1 root   wheel        77 25 Aug 19:46 pack200 -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/pack200
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 package-stash-conflicts
+-r-xr-xr-x   1 root   wheel       844 29 Feb  2020 package-stash-conflicts5.18
+-r-xr-xr-x   1 root   wheel       844 29 Feb  2020 package-stash-conflicts5.28
+-rwxr-xr-x   1 root   wheel      2006  5 Mar  2020 pagesize
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 pagestuff
+-rwxr-xr-x   1 root   wheel     45312 17 Mar  2020 passwd
+-rwxr-xr-x   1 root   wheel     31728 17 Mar  2020 paste
+-rwxr-xr-x   1 root   wheel    104176 17 Mar  2020 patch
+-rwxr-xr-x   1 root   wheel     31632 17 Mar  2020 pathchk
+-rwxr-xr-x   1 root   wheel      2378 29 Feb  2020 pathopens.d
+-rwxr-xr-x   1 root   wheel     36800 17 Mar  2020 pbcopy
+-rwxr-xr-x   1 root   wheel     36800 17 Mar  2020 pbpaste
+-rwxr-xr-x   1 root   wheel      1622 29 Feb  2020 pcap-config
+-rwxr-xr-x   1 root   wheel     31968 17 Mar  2020 pcsctest
+-rwxr-xr-x   1 root   wheel     42864 17 Mar  2020 perl
+-rwxr-xr-x   1 root   wheel     37552 17 Mar  2020 perl5.18
+-rwxr-xr-x   1 root   wheel     36176 17 Mar  2020 perl5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 perlbug
+-rwxr-xr-x   1 root   wheel     41944 29 Feb  2020 perlbug5.18
+-rwxr-xr-x   1 root   wheel     46397 29 Feb  2020 perlbug5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 perldoc
+-rwxr-xr-x   1 root   wheel       259 29 Feb  2020 perldoc5.18
+-rwxr-xr-x   1 root   wheel       297 29 Feb  2020 perldoc5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 perlivp
+-rwxr-xr-x   1 root   wheel     10807 29 Feb  2020 perlivp5.18
+-rwxr-xr-x   1 root   wheel     10848 29 Feb  2020 perlivp5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 perlthanks
+-rwxr-xr-x   1 root   wheel     41944 29 Feb  2020 perlthanks5.18
+-rwxr-xr-x   1 root   wheel     46397 29 Feb  2020 perlthanks5.28
+-rwxr-xr-x   1 root   wheel     36048 17 Mar  2020 pfbtops
+-rwxr-xr-x   1 root   wheel     43648 17 Mar  2020 pgrep
+lrwxr-xr-x   1 root   wheel         9 25 Aug 19:46 phar -> phar.phar
+-rwxr-xr-x   1 root   wheel     14811 29 Feb  2020 phar.phar
+-rwxr-xr-x   1 root   wheel  14132944 17 Mar  2020 php
+-rwxr-xr-x   1 root   wheel      4033 29 Feb  2020 php-config
+-rwxr-xr-x   1 root   wheel      4545 29 Feb  2020 phpize
+-rwxr-xr-x   1 root   wheel    222288 17 Mar  2020 pic
+lrwxr-xr-x   1 root   wheel         4 25 Aug 19:46 pico -> nano
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 piconv
+-rwxr-xr-x   1 root   wheel      7372 29 Feb  2020 piconv5.18
+-rwxr-xr-x   1 root   wheel      8392 29 Feb  2020 piconv5.28
+-rwxr-xr-x   1 root   wheel      1295 29 Feb  2020 pidpersec.d
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 pip3
+-rwxr-xr-x   1 root   wheel     96080 17 Mar  2020 pkgbuild
+-rwxr-xr-x   1 root   wheel     43648 17 Mar  2020 pkill
+-rwxr-xr-x   1 root   wheel     36064 17 Mar  2020 pl
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 pl2pm
+-rwxr-xr-x   1 root   wheel      4566 29 Feb  2020 pl2pm5.18
+-rwxr-xr-x   1 root   wheel      4568 29 Feb  2020 pl2pm5.28
+-rwxr-xr-x   1 root   wheel     46576 17 Mar  2020 plockstat
+-rwxr-xr-x   1 root   wheel     47424 17 Mar  2020 pluginkit
+-rwxr-xr-x   1 root   wheel     77360 17 Mar  2020 plutil
+-rwxr-xr-x   1 root   wheel    159216 17 Mar  2020 pmset
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 pod2html
+-rwxr-xr-x   1 root   wheel      2073 29 Feb  2020 pod2html5.18
+-rwxr-xr-x   1 root   wheel      4169 29 Feb  2020 pod2html5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 pod2latex
+-rwxr-xr-x   1 root   wheel     10374 29 Feb  2020 pod2latex5.18
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 pod2man
+-rwxr-xr-x   1 root   wheel     13700 29 Feb  2020 pod2man5.18
+-rwxr-xr-x   1 root   wheel     15248 29 Feb  2020 pod2man5.28
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 pod2readme
+-r-xr-xr-x   1 root   wheel      1603 29 Feb  2020 pod2readme5.18
+-r-xr-xr-x   1 root   wheel      1603 29 Feb  2020 pod2readme5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 pod2text
+-rwxr-xr-x   1 root   wheel     11123 29 Feb  2020 pod2text5.18
+-rwxr-xr-x   1 root   wheel     11145 29 Feb  2020 pod2text5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 pod2usage
+-rwxr-xr-x   1 root   wheel      3790 29 Feb  2020 pod2usage5.18
+-rwxr-xr-x   1 root   wheel      3983 29 Feb  2020 pod2usage5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 podchecker
+-rwxr-xr-x   1 root   wheel      3819 29 Feb  2020 podchecker5.18
+-rwxr-xr-x   1 root   wheel      3693 29 Feb  2020 podchecker5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 podselect
+-rwxr-xr-x   1 root   wheel      2647 29 Feb  2020 podselect5.18
+-rwxr-xr-x   1 root   wheel      2562 29 Feb  2020 podselect5.28
+lrwxr-xr-x   1 root   wheel        80 25 Aug 19:46 policytool -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/policytool
+-rwxr-xr-x   1 root   wheel    160672 17 Mar  2020 post-grohtml
+-rwxr-xr-x   1 root   wheel       951 29 Feb  2020 power_report.sh
+-rwxr-xr-x   1 root   wheel    146608 17 Mar  2020 powermetrics
+-r-xr-xr-x   1 root   wheel    123872 17 Mar  2020 ppdc
+-r-xr-xr-x   1 root   wheel    119120 17 Mar  2020 ppdhtml
+-r-xr-xr-x   1 root   wheel    123472 17 Mar  2020 ppdi
+-r-xr-xr-x   1 root   wheel     37376 17 Mar  2020 ppdmerge
+-r-xr-xr-x   1 root   wheel    119024 17 Mar  2020 ppdpo
+-rwxr-xr-x   1 root   wheel     45344 17 Mar  2020 pr
+-rwxr-xr-x   1 root   wheel     87104 17 Mar  2020 pre-grohtml
+-rwxr-xr-x   1 root   wheel      1839 29 Feb  2020 priclass.d
+-rwxr-xr-x   1 root   wheel      1836 29 Feb  2020 pridist.d
+-rwxr-xr-x   1 root   wheel     31280 17 Mar  2020 printenv
+-rwxr-xr-x   1 root   wheel     36416 17 Mar  2020 printf
+-rwxr-xr-x   1 root   wheel      6348 29 Feb  2020 procsystime
+-rwxr-xr-x   1 root   wheel    131824 17 Mar  2020 productbuild
+-rwxr-xr-x   1 root   wheel     47712 17 Mar  2020 productsign
+-rwxr-xr-x   1 root   wheel    194208 17 Mar  2020 profiles
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 prove
+-rwxr-xr-x   1 root   wheel     11120 29 Feb  2020 prove5.18
+-rwxr-xr-x   1 root   wheel     13690 29 Feb  2020 prove5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 psed
+-rwxr-xr-x   1 root   wheel     53364 29 Feb  2020 psed5.18
+-rwxr-xr-x   1 root   wheel     37088 17 Mar  2020 pstopdf
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 pstruct
+-rwxr-xr-x   1 root   wheel     36642 29 Feb  2020 pstruct5.18
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 ptar
+-rwxr-xr-x   1 root   wheel      3559 29 Feb  2020 ptar5.18
+-rwxr-xr-x   1 root   wheel      3584 29 Feb  2020 ptar5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 ptardiff
+-rwxr-xr-x   1 root   wheel      2507 29 Feb  2020 ptardiff5.18
+-rwxr-xr-x   1 root   wheel      2663 29 Feb  2020 ptardiff5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 ptargrep
+-rwxr-xr-x   1 root   wheel      4274 29 Feb  2020 ptargrep5.18
+-rwxr-xr-x   1 root   wheel      4427 29 Feb  2020 ptargrep5.28
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 pwhich
+-r-xr-xr-x   1 root   wheel      3106 29 Feb  2020 pwhich5.18
+-r-xr-xr-x   1 root   wheel      3106 29 Feb  2020 pwhich5.28
+-rwxr-xr-x   1 root   wheel     61072 17 Mar  2020 pwpolicy
+lrwxr-xr-x   1 root   wheel        74 25 Aug 19:45 pydoc -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/pydoc2.7
+lrwxr-xr-x   1 root   wheel        74 25 Aug 19:46 pydoc2.7 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/pydoc2.7
+lrwxr-xr-x   1 root   wheel        75 25 Aug 19:45 python -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+lrwxr-xr-x   1 root   wheel        82 25 Aug 19:46 python-config -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7-config
+lrwxr-xr-x   1 root   wheel        75 25 Aug 19:45 python2 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+lrwxr-xr-x   1 root   wheel        75 25 Aug 19:46 python2.7 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+lrwxr-xr-x   1 root   wheel        82 25 Aug 19:45 python2.7-config -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7-config
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 python3
+lrwxr-xr-x   1 root   wheel        76 25 Aug 19:45 pythonw -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/pythonw2.7
+lrwxr-xr-x   1 root   wheel        76 25 Aug 19:46 pythonw2.7 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/pythonw2.7
+lrwxr-xr-x   1 root   wheel        98 25 Aug 19:45 qlmanage -> ../../System/Library/Frameworks/QuickLook.framework/Resources/qlmanage.app/Contents/MacOS/qlmanage
+-r-sr-xr-x   1 root   wheel     36672 17 Mar  2020 quota
+-r-xr-xr-x   1 root   wheel       549 29 Feb  2020 rails
+-r-xr-xr-x   1 root   wheel       564 29 Feb  2020 rake
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 ranlib
+-r-xr-xr-x   1 root   wheel       564 29 Feb  2020 rdoc
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 read
+-rwxr-xr-x   1 root   wheel     40704 17 Mar  2020 readlink
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 rebase
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 redo_prebinding
+-rwxr-xr-x   1 root   wheel    127024 17 Mar  2020 refer
+-rwxr-xr-x   1 root   wheel     31424 17 Mar  2020 renice
+lrwxr-xr-x   1 root   wheel         4 25 Aug 19:46 reset -> tset
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 resolveLinks
+-rwxr-xr-x   1 root   wheel     31536 17 Mar  2020 rev
+-r-xr-xr-x   1 root   wheel       560 29 Feb  2020 ri
+lrwxr-xr-x   1 root   wheel        74 25 Aug 19:45 rmic -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/rmic
+lrwxr-xr-x   1 root   wheel        74 25 Aug 19:45 rmid -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/rmid
+lrwxr-xr-x   1 root   wheel        81 25 Aug 19:45 rmiregistry -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/rmiregistry
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 rpcgen
+-rwxr-xr-x   1 root   wheel     35840 17 Mar  2020 rs
+-rwxr-xr-x   1 root   wheel    300800 17 Mar  2020 rsync
+-r-xr-xr-x   1 root   wheel     36624 17 Mar  2020 ruby
+lrwxr-xr-x   1 root   wheel         3 25 Aug 19:45 rview -> vim
+lrwxr-xr-x   1 root   wheel         3 25 Aug 19:46 rvim -> vim
+-rwxr-xr-x   1 root   wheel      1657 29 Feb  2020 rwbypid.d
+-rwxr-xr-x   1 root   wheel      2473 29 Feb  2020 rwbytype.d
+-rwxr-xr-x   1 root   wheel      6357 29 Feb  2020 rwsnoop
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 s2p
+-rwxr-xr-x   1 root   wheel     53364 29 Feb  2020 s2p5.18
+lrwxr-xr-x   1 root   wheel        91 25 Aug 19:45 safaridriver -> /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/safaridriver
+-rwxr-xr-x   1 root   wheel     84384 17 Mar  2020 sample
+-rwxr-xr-x   1 root   wheel      2544 29 Feb  2020 sampleproc
+-rwxr-xr-x   1 root   wheel     36960 17 Mar  2020 sandbox-exec
+-rwxr-xr-x   1 root   wheel     68048 17 Mar  2020 say
+-rwxr-xr-x   1 root   wheel     50512 17 Mar  2020 sc_usage
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 scandeps.pl
+-r-xr-xr-x   1 root   wheel      5815 29 Feb  2020 scandeps5.18.pl
+-r-xr-xr-x   1 root   wheel      5815 29 Feb  2020 scandeps5.28.pl
+lrwxr-xr-x   1 root   wheel        79 25 Aug 19:46 schemagen -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/schemagen
+-rwxr-xr-x   1 root   wheel   1566016 17 Mar  2020 scp
+-rwxr-xr-x   1 root   wheel    304000 17 Mar  2020 screen
+-rwxr-xr-x   1 root   wheel     37456 17 Mar  2020 script
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 sdef
+-rwxr-xr-x   1 root   wheel     50752 17 Mar  2020 sdiff
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 sdp
+lrwxr-xr-x   1 root   wheel        32 25 Aug 19:46 sdx -> ../../System/Library/Tcl/bin/sdx
+-rwxr-xr-x   1 root   wheel    298096 17 Mar  2020 security
+-rwxr-xr-x   1 root   wheel     59568 17 Mar  2020 sed
+-rwxr-xr-x   1 root   wheel      2041 29 Feb  2020 seeksize.d
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 segedit
+-rwxr-xr-x   1 root   wheel     36128 17 Mar  2020 seq
+lrwxr-xr-x   1 root   wheel        79 25 Aug 19:46 serialver -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/serialver
+lrwxr-xr-x   1 root   wheel        80 25 Aug 19:46 servertool -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/servertool
+-r-xr-xr-x   1 root   wheel     38560 17 Mar  2020 setregion
+-rwxr-xr-x   1 root   wheel      1606 29 Feb  2020 setuids.d
+-rwxr-xr-x   1 root   wheel     88816 17 Mar  2020 sfltool
+-rwxr-xr-x   1 root   wheel   1600704 17 Mar  2020 sftp
+-rwxr-xr-x   1 root   wheel      2516 29 Feb  2020 shar
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 shasum
+-rwxr-xr-x   1 root   wheel      8629 29 Feb  2020 shasum5.18
+-rwxr-xr-x   1 root   wheel     10011 29 Feb  2020 shasum5.28
+-rwxr-xr-x   1 root   wheel     36144 17 Mar  2020 shlock
+-rwxr-xr-x   1 root   wheel     37856 17 Mar  2020 showmount
+-rwxr-xr-x   1 root   wheel      1603 29 Feb  2020 sigdist.d
+-rwxr-xr-x   1 root   wheel    215520 17 Mar  2020 sips
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 size
+lrwxr-xr-x   1 root   wheel         3 25 Aug 19:46 slogin -> ssh
+-r-xr-xr-x   1 root   wheel    118656 17 Mar  2020 smbutil
+-rwxr-xr-x   1 root   wheel     18681 29 Feb  2020 smtpd.py
+lrwxr-xr-x   1 root   wheel        77 25 Aug 19:45 smtpd2.7.py -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/smtpd2.7.py
+lrwxr-xr-x   1 root   wheel        59 25 Aug 19:46 snfsdefrag -> /System/Library/Filesystems/acfs.fs/Contents/bin/snfsdefrag
+-rwxr-xr-x   1 root   wheel     30680 29 Feb  2020 snmp-bridge-mib
+-rwxr-xr-x   1 root   wheel     36768 17 Mar  2020 snmpbulkget
+-rwxr-xr-x   1 root   wheel     37184 17 Mar  2020 snmpbulkwalk
+-rwxr-xr-x   1 root   wheel     26136 29 Feb  2020 snmpconf
+-rwxr-xr-x   1 root   wheel     42656 17 Mar  2020 snmpdelta
+-rwxr-xr-x   1 root   wheel     36832 17 Mar  2020 snmpdf
+-rwxr-xr-x   1 root   wheel     32560 17 Mar  2020 snmpget
+-rwxr-xr-x   1 root   wheel     32576 17 Mar  2020 snmpgetnext
+lrwxr-xr-x   1 root   wheel         8 25 Aug 19:45 snmpinform -> snmptrap
+-rwxr-xr-x   1 root   wheel     68464 17 Mar  2020 snmpnetstat
+-rwxr-xr-x   1 root   wheel     36688 17 Mar  2020 snmpset
+-rwxr-xr-x   1 root   wheel     37296 17 Mar  2020 snmpstatus
+-rwxr-xr-x   1 root   wheel     42208 17 Mar  2020 snmptable
+-rwxr-xr-x   1 root   wheel     37792 17 Mar  2020 snmptest
+-rwxr-xr-x   1 root   wheel     38288 17 Mar  2020 snmptranslate
+-rwxr-xr-x   1 root   wheel     37248 17 Mar  2020 snmptrap
+-rwxr-xr-x   1 root   wheel     59440 17 Mar  2020 snmpusm
+-rwxr-xr-x   1 root   wheel     53312 17 Mar  2020 snmpvacm
+-rwxr-xr-x   1 root   wheel     37056 17 Mar  2020 snmpwalk
+-rwxr-xr-x   1 root   wheel    174816 17 Mar  2020 sntp
+-rwxr-xr-x   1 root   wheel     52016 17 Mar  2020 soelim
+-rwxr-xr-x   1 root   wheel     74912 17 Mar  2020 sort
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 spfd
+-r-xr-xr-x   1 root   wheel      9486 29 Feb  2020 spfd5.18
+-r-xr-xr-x   1 root   wheel      9486 29 Feb  2020 spfd5.28
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 spfquery
+-r-xr-xr-x   1 root   wheel     23081 29 Feb  2020 spfquery5.18
+-r-xr-xr-x   1 root   wheel     23081 29 Feb  2020 spfquery5.28
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 splain
+-rwxr-xr-x   1 root   wheel     18681 29 Feb  2020 splain5.18
+-rwxr-xr-x   1 root   wheel     19185 29 Feb  2020 splain5.28
+-rwxr-xr-x   1 root   wheel     36240 17 Mar  2020 split
+-rwxr-xr-x   1 root   wheel   2308400 17 Mar  2020 sqlite3
+-rwxr-xr-x   1 root   wheel   2142352 17 Mar  2020 ssh
+-rwxr-xr-x   1 root   wheel   1817392 17 Mar  2020 ssh-add
+-rwxr-xr-x   1 root   wheel   1794016 17 Mar  2020 ssh-agent
+-rwxr-xr-x   1 root   wheel     10658 29 Feb  2020 ssh-copy-id
+-rwxr-xr-x   1 root   wheel   1884080 17 Mar  2020 ssh-keygen
+-rwxr-xr-x   1 root   wheel   1886416 17 Mar  2020 ssh-keyscan
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 stapler
+-rwxr-xr-x   1 root   wheel     40704 17 Mar  2020 stat
+-rwxr-xr-x   1 root   wheel     98704 17 Mar  2020 stringdups
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 strings
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 strip
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 stty.pl
+-r-xr-xr-x   1 root   wheel       277 29 Feb  2020 stty5.18.pl
+-r-xr-xr-x   1 root   wheel       277 29 Feb  2020 stty5.28.pl
+-rwsr-xr-x   1 root   wheel     43136 17 Mar  2020 su
+-r-s--x--x   1 root   wheel    460608 17 Mar  2020 sudo
+-rwxr-xr-x   1 root   wheel     35888 17 Mar  2020 sum
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 svn
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 svnlook
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 svnversion
+-rwxr-xr-x   1 root   wheel     31968 17 Mar  2020 sw_vers
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 swift
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 swiftc
+-rwxr-xr-x   1 root   wheel    171536 17 Mar  2020 symbols
+-rwxr-xr-x   1 root   wheel    126016 17 Mar  2020 symbolscache
+-rwxr-xr-x   1 root   wheel      1260 29 Feb  2020 syscallbypid.d
+-rwxr-xr-x   1 root   wheel       253 29 Feb  2020 syscallbyproc.d
+-rwxr-xr-x   1 root   wheel       248 29 Feb  2020 syscallbysysc.d
+-rwxr-xr-x   1 root   wheel    869392 17 Mar  2020 sysdiagnose
+-rwxr-xr-x   1 root   wheel     80848 17 Mar  2020 syslog
+-rwxr-xr-x   1 root   wheel     42368 17 Mar  2020 systemextensionsctl
+-rwxr-xr-x   1 root   wheel     35792 17 Mar  2020 tab2space
+-rwxr-xr-x   1 root   wheel     35824 17 Mar  2020 tabs
+-rwxr-xr-x   1 root   wheel     41696 17 Mar  2020 tail
+-rwxr-xr-x   1 root   wheel     70704 17 Mar  2020 tailspin
+-r-xr-xr-x   1 root   wheel     44208 17 Mar  2020 talk
+lrwxr-xr-x   1 root   wheel         6 25 Aug 19:46 tar -> bsdtar
+-rwxr-xr-x   1 root   wheel     51616 17 Mar  2020 taskinfo
+-rwxr-xr-x   1 root   wheel    120096 17 Mar  2020 tbl
+-rwxr-xr-x   1 root   wheel     68416 17 Mar  2020 tbtdiagnose
+-rwxr-xr-x   1 root   wheel     39120 17 Mar  2020 tccutil
+lrwxr-xr-x   1 root   wheel         8 25 Aug 19:46 tclsh -> tclsh8.5
+lrwxr-xr-x   1 root   wheel        67 25 Aug 19:46 tclsh8.5 -> ../../System/Library/Frameworks/Tcl.framework/Versions/8.5/tclsh8.5
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 tee
+-rwxr-xr-x   1 root   wheel     28218 29 Feb  2020 texi2dvi
+-rwxr-xr-x   1 root   wheel       660 29 Feb  2020 texi2pdf
+-rwxr-xr-x   1 root   wheel     65568 17 Mar  2020 texindex
+-rwxr-xr-x   1 root   wheel     62048 17 Mar  2020 textutil
+-rwxr-xr-x   1 root   wheel     52304 17 Mar  2020 tfmtodit
+-r-xr-xr-x   1 root   wheel     47968 17 Mar  2020 tftp
+-rwxr-xr-x   1 root   wheel     39392 17 Mar  2020 thermal
+-rwxr-xr-x   1 root   wheel     68960 17 Mar  2020 tic
+-rwxr-xr-x   1 root   wheel     47248 17 Mar  2020 tidy
+-rwxr-xr-x   1 root   wheel     36720 17 Mar  2020 tiff2icns
+-rwxr-xr-x   1 root   wheel    345200 17 Mar  2020 tiffutil
+-rwxr-xr-x   1 root   wheel     31648 17 Mar  2020 time
+-rwxr-xr-x   1 root   wheel      2886 29 Feb  2020 timer_analyser.d
+-rwxr-xr-x   1 root   wheel      6537  5 Mar  2020 timerfires
+-rwxr-xr-x   1 root   wheel     93616 17 Mar  2020 timesyncanalyse
+lrwxr-xr-x   1 root   wheel        43 25 Aug 19:46 tkcon -> ../../System/Library/Tcl/tkcon2.6/tkcon.tcl
+-rwxr-xr-x   1 root   wheel     30924 29 Feb  2020 tkmib
+-rwxr-xr-x   1 root   wheel    185456 17 Mar  2020 tmdiagnose
+-rwxr-xr-x   1 root   wheel    307968 17 Mar  2020 tmutil
+lrwxr-xr-x   1 root   wheel        79 25 Aug 19:46 tnameserv -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/tnameserv
+-rwxr-xr-x   1 root   wheel     37792 17 Mar  2020 toe
+-r-sr-xr-x   1 root   wheel    101760 17 Mar  2020 top
+-rwxr-xr-x   1 root   wheel    108448 17 Mar  2020 tops
+-rwxr-xr-x   1 root   wheel      4603 29 Feb  2020 topsyscall
+-rwxr-xr-x   1 root   wheel      2950 29 Feb  2020 topsysproc
+-rwxr-xr-x   1 root   wheel     36496 17 Mar  2020 touch
+-rwxr-xr-x   1 root   wheel     37312 17 Mar  2020 tput
+-rwxr-xr-x   1 root   wheel     40832 17 Mar  2020 tr
+-rwxr-xr-x   1 root   wheel     63200 17 Mar  2020 trace
+-rwxr-xr-x   1 root   wheel      2207 29 Feb  2020 traptoemail
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 treereg
+-r-xr-xr-x   1 root   wheel     10339 29 Feb  2020 treereg5.18
+-r-xr-xr-x   1 root   wheel     10339 29 Feb  2020 treereg5.28
+-rwxr-xr-x   1 root   wheel     42976 17 Mar  2020 trimforce
+-rwxr-xr-x   1 root   wheel    466944 17 Mar  2020 troff
+-rwxr-xr-x   1 root   wheel     30944 17 Mar  2020 true
+-rwxr-xr-x   1 root   wheel     41936 17 Mar  2020 tset
+-r-xr-xr-x   1 root   wheel     36096 17 Mar  2020 tsort
+-rwxr-xr-x   1 root   wheel     31168 17 Mar  2020 tty
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 type
+-rwxr-xr-x   1 root   wheel     36320 17 Mar  2020 ul
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 ulimit
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 umask
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 unalias
+-rwxr-xr-x   1 root   wheel     31552 17 Mar  2020 uname
+-rwxr-xr-x   1 root   wheel     40944 17 Mar  2020 uncompress
+-rwxr-xr-x   1 root   wheel     31696 17 Mar  2020 unexpand
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 unifdef
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 unifdefall
+-rwxr-xr-x   1 root   wheel     36400 17 Mar  2020 uniq
+-r-xr-xr-x   1 root   wheel     40896 17 Mar  2020 units
+lrwxr-xr-x   1 root   wheel        79 25 Aug 19:45 unpack200 -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/unpack200
+-rwxr-xr-x   1 root   wheel     31520 17 Mar  2020 unvis
+-rwxr-xr-x   1 root   wheel    198928 17 Mar  2020 unzip
+-rwxr-xr-x   1 root   wheel    101392 17 Mar  2020 unzipsfx
+-rwxr-xr-x   1 root   wheel    910048 17 Mar  2020 update_dyld_shared_cache
+-rwxr-xr-x   1 root   wheel    904640 17 Mar  2020 update_dyld_shared_cache_root_mode
+-rwxr-xr-x   1 root   wheel     37344 17 Mar  2020 uptime
+-rwxr-xr-x   1 root   wheel     31504 17 Mar  2020 users
+-r-xr-xr-x   1 _uucp  wheel    110976 17 Mar  2020 uucp
+-r-xr-xr-x   1 root   wheel     37376 17 Mar  2020 uudecode
+-r-xr-xr-x   1 root   wheel     31888 17 Mar  2020 uuencode
+-rwxr-xr-x   1 root   wheel     68416 17 Mar  2020 uuidgen
+-rwxr-xr-x   1 root   wheel     79216 17 Mar  2020 uulog
+-r-xr-xr-x   1 _uucp  wheel     61408 17 Mar  2020 uuname
+-rwxr-xr-x   1 root   wheel     88576 17 Mar  2020 uupick
+-r-xr-xr-x   1 _uucp  wheel    119392 17 Mar  2020 uustat
+-rwxr-xr-x   1 root   wheel      1958 29 Feb  2020 uuto
+-r-xr-xr-x   1 _uucp  wheel    110928 17 Mar  2020 uux
+lrwxr-xr-x   1 root   wheel         3 25 Aug 19:45 vi -> vim
+lrwxr-xr-x   1 root   wheel         3 25 Aug 19:46 view -> vim
+-rwxr-xr-x   1 root   wheel   2129184 17 Mar  2020 vim
+lrwxr-xr-x   1 root   wheel         3 25 Aug 19:45 vimdiff -> vim
+-rwxr-xr-x   1 root   wheel      2121 29 Feb  2020 vimtutor
+-rwxr-xr-x   1 root   wheel     31664 17 Mar  2020 vis
+-rwxr-xr-x   1 root   wheel     36192 17 Mar  2020 vm_stat
+-rwxr-xr-x   1 root   wheel     89840 17 Mar  2020 vmmap
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 vtool
+-rwxr-xr-x   1 root   wheel     37344 17 Mar  2020 w
+-rwxr-xr-x  15 root   wheel       190 29 Feb  2020 wait
+-r-xr-xr-x   1 root   wheel     37904 17 Mar  2020 wall
+-rwxr-xr-x   1 root   wheel     36192 17 Mar  2020 wc
+-rwxr-xr-x   1 root   wheel    105936 17 Mar  2020 wdutil
+-rwxr-xr-x   1 root   wheel     31216 17 Mar  2020 what
+-r-xr-xr-x   1 root   wheel      2093 29 Feb  2020 whatis
+-rwxr-xr-x   1 root   wheel     31664 17 Mar  2020 whereis
+-rwxr-xr-x   1 root   wheel     31696 17 Mar  2020 which
+-rwxr-xr-x   1 root   wheel     36672 17 Mar  2020 who
+-rwxr-xr-x   1 root   wheel     36368 17 Mar  2020 whoami
+-rwxr-xr-x   1 root   wheel     36912 17 Mar  2020 whois
+lrwxr-xr-x   1 root   wheel         7 25 Aug 19:45 wish -> wish8.5
+-r-xr-xr-x   1 root   wheel       127 29 Feb  2020 wish8.5
+-r-xr-sr-x   1 root   tty       37072 17 Mar  2020 write
+lrwxr-xr-x   1 root   wheel        75 25 Aug 19:46 wsgen -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/wsgen
+lrwxr-xr-x   1 root   wheel        78 25 Aug 19:45 wsimport -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/wsimport
+-rwxr-xr-x   1 root   wheel     51792 17 Mar  2020 xar
+-rwxr-xr-x   1 root   wheel     41456 17 Mar  2020 xargs
+-rwxr-xr-x   2 root   wheel       512 29 Feb  2020 xattr
+-rwxr-xr-x   2 root   wheel       512 29 Feb  2020 xattr-2.7
+-rwxr-xr-x   1 root   wheel     37104 17 Mar  2020 xcode-select
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 xcodebuild
+-rwxr-xr-x   1 root   wheel     31088 17 Mar  2020 xcrun
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 xcscontrol
+-rwxr-xr-x   1 root   wheel     31504 17 Mar  2020 xcsdiagnose
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 xed
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 xgettext.pl
+-r-xr-xr-x   1 root   wheel      6650 29 Feb  2020 xgettext5.18.pl
+-r-xr-xr-x   1 root   wheel      6650 29 Feb  2020 xgettext5.28.pl
+-rwxr-xr-x   1 root   wheel     41936 17 Mar  2020 xip
+lrwxr-xr-x   1 root   wheel        73 25 Aug 19:45 xjc -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/xjc
+-rwxr-xr-x   1 root   wheel      1866 29 Feb  2020 xml2-config
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 xml2man
+-rwxr-xr-x   1 root   wheel     41600 17 Mar  2020 xmlcatalog
+-rwxr-xr-x   1 root   wheel     81344 17 Mar  2020 xmllint
+-rwxr-xr-x  33 root   wheel       811 29 Feb  2020 xpath
+-r-xr-xr-x   1 root   wheel      1445 29 Feb  2020 xpath5.18
+-r-xr-xr-x   1 root   wheel      1445 29 Feb  2020 xpath5.28
+-rwxr-xr-x   1 root   wheel      2546 29 Feb  2020 xslt-config
+-rwxr-xr-x   1 root   wheel     47600 17 Mar  2020 xsltproc
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 xsubpp
+-rwxr-xr-x   1 root   wheel      4591 29 Feb  2020 xsubpp5.18
+-rwxr-xr-x   1 root   wheel      5199 29 Feb  2020 xsubpp5.28
+-rwxr-xr-x   1 root   wheel     40544 17 Mar  2020 xxd
+-rwxr-xr-x   1 root   wheel     78112 17 Mar  2020 yaa
+-rwxr-xr-x   1 root   wheel     31488 17 Mar  2020 yacc
+-rwxr-xr-x   1 root   wheel     30944 17 Mar  2020 yes
+-rwxr-xr-x   1 root   wheel     66896 17 Mar  2020 zcat
+-rwxr-xr-x   2 root   wheel      3264 29 Feb  2020 zcmp
+-rwxr-xr-x   2 root   wheel      3264 29 Feb  2020 zdiff
+-rwxr-xr-x   1 root   wheel     47136 17 Mar  2020 zegrep
+-rwxr-xr-x   1 root   wheel     47136 17 Mar  2020 zfgrep
+-rwxr-xr-x   1 root   wheel      1454 29 Feb  2020 zforce
+-rwxr-xr-x   1 root   wheel     47136 17 Mar  2020 zgrep
+-rwxr-xr-x   1 root   wheel    180896 17 Mar  2020 zip
+-rwxr-xr-x   1 root   wheel     91392 17 Mar  2020 zipcloak
+-rwxr-xr-x  39 root   wheel       811 29 Feb  2020 zipdetails
+-rwxr-xr-x   1 root   wheel     48113 29 Feb  2020 zipdetails5.18
+-rwxr-xr-x   1 root   wheel     48532 29 Feb  2020 zipdetails5.28
+-rwxr-xr-x   1 root   wheel      2953 29 Feb  2020 zipgrep
+-rwxr-xr-x   1 root   wheel    198928 17 Mar  2020 zipinfo
+-rwxr-xr-x   1 root   wheel     86592 17 Mar  2020 zipnote
+-rwxr-xr-x   1 root   wheel     90864 17 Mar  2020 zipsplit
+-rwxr-xr-x   2 root   wheel      2080 29 Feb  2020 zless
+-rwxr-xr-x   2 root   wheel      2080 29 Feb  2020 zmore
+-rwxr-xr-x   1 root   wheel      3376 29 Feb  2020 znew
+-rwxr-xr-x   1 root   wheel     47024 17 Mar  2020 zprint
+
+/usr/local/bin:
+total 0
+lrwxr-xr-x  1 root      wheel  66 25 Aug 21:44 2to3 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/2to3
+lrwxr-xr-x  1 root      wheel  70 25 Aug 21:44 2to3-3.8 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/2to3-3.8
+lrwxr-xr-x  1 knickypi  admin  71 18 Sep 10:56 apm -> /Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm
+lrwxr-xr-x  1 knickypi  admin  40 14 Oct 11:50 asn1Coding -> ../Cellar/libtasn1/4.16.0/bin/asn1Coding
+lrwxr-xr-x  1 knickypi  admin  42 14 Oct 11:50 asn1Decoding -> ../Cellar/libtasn1/4.16.0/bin/asn1Decoding
+lrwxr-xr-x  1 knickypi  admin  40 14 Oct 11:50 asn1Parser -> ../Cellar/libtasn1/4.16.0/bin/asn1Parser
+lrwxr-xr-x  1 knickypi  admin  53 18 Sep 10:56 atom -> /Applications/Atom.app/Contents/Resources/app/atom.sh
+lrwxr-xr-x  1 knickypi  admin  36 18 Sep 09:24 autopoint -> ../Cellar/gettext/0.21/bin/autopoint
+lrwxr-xr-x  1 knickypi  admin  28 18 Sep 09:19 brew -> /usr/local/Homebrew/bin/brew
+lrwxr-xr-x  1 knickypi  admin  29 14 Oct 12:04 cask -> ../Cellar/cask/0.8.4/bin/cask
+lrwxr-xr-x  1 knickypi  admin  36 14 Oct 11:51 danetool -> ../Cellar/gnutls/3.6.15/bin/danetool
+lrwxrwxr-x  1 root      admin  78 25 Aug 21:45 easy_install-3.8 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/easy_install-3.8
+lrwxr-xr-x  1 knickypi  admin  32 14 Oct 11:53 ebrowse -> ../Cellar/emacs/27.1/bin/ebrowse
+lrwxr-xr-x  1 knickypi  admin  30 14 Oct 11:53 emacs -> ../Cellar/emacs/27.1/bin/emacs
+lrwxr-xr-x  1 knickypi  admin  35 14 Oct 11:53 emacs-27.1 -> ../Cellar/emacs/27.1/bin/emacs-27.1
+lrwxr-xr-x  1 knickypi  admin  36 14 Oct 11:53 emacsclient -> ../Cellar/emacs/27.1/bin/emacsclient
+lrwxr-xr-x  1 knickypi  admin  35 18 Sep 09:24 envsubst -> ../Cellar/gettext/0.21/bin/envsubst
+lrwxr-xr-x  1 knickypi  admin  30 14 Oct 11:53 etags -> ../Cellar/emacs/27.1/bin/etags
+lrwxr-xr-x  1 knickypi  admin  45 14 Oct 11:51 event_rpcgen.py -> ../Cellar/libevent/2.1.12/bin/event_rpcgen.py
+lrwxr-xr-x  1 knickypi  admin  34 18 Sep 09:24 gettext -> ../Cellar/gettext/0.21/bin/gettext
+lrwxr-xr-x  1 knickypi  admin  37 18 Sep 09:24 gettext.sh -> ../Cellar/gettext/0.21/bin/gettext.sh
+lrwxr-xr-x  1 knickypi  admin  37 18 Sep 09:24 gettextize -> ../Cellar/gettext/0.21/bin/gettextize
+lrwxr-xr-x  1 knickypi  admin  28 18 Sep 09:24 git -> ../Cellar/git/2.28.0/bin/git
+lrwxr-xr-x  1 knickypi  admin  38 18 Sep 09:24 git-cvsserver -> ../Cellar/git/2.28.0/bin/git-cvsserver
+lrwxr-xr-x  1 knickypi  admin  41 18 Sep 09:24 git-receive-pack -> ../Cellar/git/2.28.0/bin/git-receive-pack
+lrwxr-xr-x  1 knickypi  admin  34 18 Sep 09:24 git-shell -> ../Cellar/git/2.28.0/bin/git-shell
+lrwxr-xr-x  1 knickypi  admin  43 18 Sep 09:24 git-upload-archive -> ../Cellar/git/2.28.0/bin/git-upload-archive
+lrwxr-xr-x  1 knickypi  admin  40 18 Sep 09:24 git-upload-pack -> ../Cellar/git/2.28.0/bin/git-upload-pack
+lrwxr-xr-x  1 knickypi  admin  38 14 Oct 11:50 glibtool -> ../Cellar/libtool/2.4.6_2/bin/glibtool
+lrwxr-xr-x  1 knickypi  admin  41 14 Oct 11:50 glibtoolize -> ../Cellar/libtool/2.4.6_2/bin/glibtoolize
+lrwxr-xr-x  1 knickypi  admin  43 14 Oct 11:51 gnutls-certtool -> ../Cellar/gnutls/3.6.15/bin/gnutls-certtool
+lrwxr-xr-x  1 knickypi  admin  38 14 Oct 11:51 gnutls-cli -> ../Cellar/gnutls/3.6.15/bin/gnutls-cli
+lrwxr-xr-x  1 knickypi  admin  44 14 Oct 11:51 gnutls-cli-debug -> ../Cellar/gnutls/3.6.15/bin/gnutls-cli-debug
+lrwxr-xr-x  1 knickypi  admin  39 14 Oct 11:51 gnutls-serv -> ../Cellar/gnutls/3.6.15/bin/gnutls-serv
+lrwxr-xr-x  1 knickypi  admin  31 14 Oct 11:50 guild -> ../Cellar/guile/3.0.4/bin/guild
+lrwxr-xr-x  1 knickypi  admin  31 14 Oct 11:50 guile -> ../Cellar/guile/3.0.4/bin/guile
+lrwxr-xr-x  1 knickypi  admin  38 14 Oct 11:50 guile-config -> ../Cellar/guile/3.0.4/bin/guile-config
+lrwxr-xr-x  1 knickypi  admin  37 14 Oct 11:50 guile-snarf -> ../Cellar/guile/3.0.4/bin/guile-snarf
+lrwxr-xr-x  1 knickypi  admin  37 14 Oct 11:50 guile-tools -> ../Cellar/guile/3.0.4/bin/guile-tools
+lrwxr-xr-x  1 knickypi  admin  52  3 Oct 19:37 hyper -> /Applications/Hyper.app/Contents/Resources/bin/hyper
+lrwxr-xr-x  1 root      wheel  67 25 Aug 21:44 idle3 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/idle3
+lrwxr-xr-x  1 root      wheel  69 25 Aug 21:44 idle3.8 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/idle3.8
+lrwxr-xr-x  1 knickypi  admin  32 14 Oct 11:50 idn2 -> ../Cellar/libidn2/2.3.0/bin/idn2
+lrwxr-xr-x  1 knickypi  admin  36 18 Sep 09:24 msgattrib -> ../Cellar/gettext/0.21/bin/msgattrib
+lrwxr-xr-x  1 knickypi  admin  33 18 Sep 09:24 msgcat -> ../Cellar/gettext/0.21/bin/msgcat
+lrwxr-xr-x  1 knickypi  admin  33 18 Sep 09:24 msgcmp -> ../Cellar/gettext/0.21/bin/msgcmp
+lrwxr-xr-x  1 knickypi  admin  34 18 Sep 09:24 msgcomm -> ../Cellar/gettext/0.21/bin/msgcomm
+lrwxr-xr-x  1 knickypi  admin  34 18 Sep 09:24 msgconv -> ../Cellar/gettext/0.21/bin/msgconv
+lrwxr-xr-x  1 knickypi  admin  32 18 Sep 09:24 msgen -> ../Cellar/gettext/0.21/bin/msgen
+lrwxr-xr-x  1 knickypi  admin  34 18 Sep 09:24 msgexec -> ../Cellar/gettext/0.21/bin/msgexec
+lrwxr-xr-x  1 knickypi  admin  36 18 Sep 09:24 msgfilter -> ../Cellar/gettext/0.21/bin/msgfilter
+lrwxr-xr-x  1 knickypi  admin  33 18 Sep 09:24 msgfmt -> ../Cellar/gettext/0.21/bin/msgfmt
+lrwxr-xr-x  1 knickypi  admin  34 18 Sep 09:24 msggrep -> ../Cellar/gettext/0.21/bin/msggrep
+lrwxr-xr-x  1 knickypi  admin  34 18 Sep 09:24 msginit -> ../Cellar/gettext/0.21/bin/msginit
+lrwxr-xr-x  1 knickypi  admin  35 18 Sep 09:24 msgmerge -> ../Cellar/gettext/0.21/bin/msgmerge
+lrwxr-xr-x  1 knickypi  admin  35 18 Sep 09:24 msgunfmt -> ../Cellar/gettext/0.21/bin/msgunfmt
+lrwxr-xr-x  1 knickypi  admin  34 18 Sep 09:24 msguniq -> ../Cellar/gettext/0.21/bin/msguniq
+lrwxr-xr-x  1 knickypi  admin  36 14 Oct 11:50 nettle-hash -> ../Cellar/nettle/3.6/bin/nettle-hash
+lrwxr-xr-x  1 knickypi  admin  43 14 Oct 11:50 nettle-lfib-stream -> ../Cellar/nettle/3.6/bin/nettle-lfib-stream
+lrwxr-xr-x  1 knickypi  admin  38 14 Oct 11:50 nettle-pbkdf2 -> ../Cellar/nettle/3.6/bin/nettle-pbkdf2
+lrwxr-xr-x  1 knickypi  admin  35 18 Sep 09:24 ngettext -> ../Cellar/gettext/0.21/bin/ngettext
+lrwxr-xr-x  1 knickypi  admin  36 14 Oct 11:51 ocsptool -> ../Cellar/gnutls/3.6.15/bin/ocsptool
+lrwxr-xr-x  1 knickypi  admin  37 14 Oct 11:50 p11-kit -> ../Cellar/p11-kit/0.23.21/bin/p11-kit
+lrwxr-xr-x  1 knickypi  admin  35 14 Oct 11:51 p11tool -> ../Cellar/gnutls/3.6.15/bin/p11tool
+lrwxr-xr-x  1 knickypi  admin  38 18 Sep 09:24 pcre2-config -> ../Cellar/pcre2/10.35/bin/pcre2-config
+lrwxr-xr-x  1 knickypi  admin  35 18 Sep 09:24 pcre2grep -> ../Cellar/pcre2/10.35/bin/pcre2grep
+lrwxr-xr-x  1 knickypi  admin  35 18 Sep 09:24 pcre2test -> ../Cellar/pcre2/10.35/bin/pcre2test
+lrwxrwxr-x  1 root      admin  66 25 Aug 21:45 pip3 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/pip3
+lrwxrwxr-x  1 root      admin  68 25 Aug 21:45 pip3.8 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/pip3.8
+lrwxr-xr-x  1 knickypi  admin  35 14 Oct 11:50 pkcs1-conv -> ../Cellar/nettle/3.6/bin/pkcs1-conv
+lrwxr-xr-x  1 knickypi  admin  44 14 Oct 11:50 pkg-config -> ../Cellar/pkg-config/0.29.2_3/bin/pkg-config
+lrwxr-xr-x  1 knickypi  admin  35 14 Oct 11:51 psktool -> ../Cellar/gnutls/3.6.15/bin/psktool
+lrwxr-xr-x  1 root      wheel  68 25 Aug 21:44 pydoc3 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/pydoc3
+lrwxr-xr-x  1 root      wheel  70 25 Aug 21:44 pydoc3.8 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/pydoc3.8
+lrwxr-xr-x  1 root      wheel  69 25 Aug 21:44 python3 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/python3
+lrwxr-xr-x  1 root      wheel  76 25 Aug 21:44 python3-config -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/python3-config
+lrwxr-xr-x  1 root      wheel  71 25 Aug 21:44 python3.8 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+lrwxr-xr-x  1 root      wheel  78 25 Aug 21:44 python3.8-config -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8-config
+lrwxr-xr-x  1 knickypi  admin  42 18 Sep 09:24 recode-sr-latin -> ../Cellar/gettext/0.21/bin/recode-sr-latin
+lrwxr-xr-x  1 knickypi  admin  34 14 Oct 11:50 sexp-conv -> ../Cellar/nettle/3.6/bin/sexp-conv
+lrwxr-xr-x  1 knickypi  admin  41 14 Oct 10:44 shellcheck -> ../Cellar/shellcheck/0.7.1/bin/shellcheck
+lrwxr-xr-x  1 knickypi  admin  35 14 Oct 11:51 srptool -> ../Cellar/gnutls/3.6.15/bin/srptool
+lrwxr-xr-x  1 knickypi  admin  29 14 Oct 10:17 tree -> ../Cellar/tree/1.8.0/bin/tree
+lrwxr-xr-x  1 knickypi  admin  35 18 Sep 09:24 xgettext -> ../Cellar/gettext/0.21/bin/xgettext
+
+/usr/local/go/bin:
+total 34816
+-rwxr-xr-x  1 root  wheel  14318672  9 Sep 21:55 go
+-rwxr-xr-x  1 root  wheel   3505936  9 Sep 21:55 gofmt
+
+/usr/sbin:
+total 39920
+lrwxr-xr-x  1 root   wheel            79 25 Aug 19:46 AppleFileServer -> /System/Library/CoreServices/AppleFileServer.app/Contents/MacOS/AppleFileServer
+-rwxr-xr-x  1 root   wheel        191792 17 Mar  2020 BootCacheControl
+-rwxr-xr-x  1 root   wheel         38224 17 Mar  2020 DevToolsSecurity
+lrwxr-xr-x  1 root   wheel            33 25 Aug 19:46 DirectoryService -> ../../usr/libexec/dspluginhelperd
+-rwxr-xr-x  1 root   wheel         61920 17 Mar  2020 KernelEventAgent
+-rwxr-xr-x  1 root   wheel        186576 17 Mar  2020 PasswordService
+-rwxr-xr-x  1 root   wheel       1268544 17 Mar  2020 WirelessRadioManagerd
+-rwxr-xr-x  1 root   wheel         85616 17 Mar  2020 ab
+-rwxr-xr-x  1 root   wheel         36304 17 Mar  2020 ac
+-rwxr-xr-x  1 root   wheel         31200 17 Mar  2020 accton
+-rwxr-xr-x  1 root   wheel         36944 17 Mar  2020 amt
+-rwxr-xr-x  1 root   wheel          3824 29 Feb  2020 apachectl
+-rwxr-xr-x  1 root   wheel         83728 17 Mar  2020 appsleepd
+-r-xr-xr-x  1 root   wheel         41664 17 Mar  2020 arp
+-rwxr-xr-x  1 root   wheel         77360 17 Mar  2020 aslmanager
+-rwxr-xr-x  1 root   wheel        448832 17 Mar  2020 asr
+-rwxr-xr-x  1 root   wheel         31552 17 Mar  2020 audit
+-rwxr-xr-x  1 root   wheel         49456 17 Mar  2020 auditd
+-rwxr-xr-x  1 root   wheel         37120 17 Mar  2020 auditreduce
+drwx------  3 root   wheel            96 29 Feb  2020 authserver
+-rwxr-xr-x  1 root   wheel         80688 17 Mar  2020 automount
+-rwxr-xr-x  1 root   wheel         69104 17 Mar  2020 avbdeviced
+-rwxr-xr-x  1 root   wheel        187504 17 Mar  2020 bless
+-rwxr-xr-x  1 root   wheel        703616 17 Mar  2020 bluetoothaudiod
+-rwxr-xr-x  1 root   wheel       3468272 17 Mar  2020 bluetoothd
+-rwxr-xr-x  1 root   wheel         63616 17 Mar  2020 bnepd
+-rwxr-xr-x  1 root   wheel         68688 17 Mar  2020 cfprefsd
+-rwxr-xr-x  1 root   wheel         45696 17 Mar  2020 chat
+-rwxr-xr-x  1 root   wheel         27056 17 Mar  2020 checkgid
+-rwxr-xr-x  1 root   wheel         36416 17 Mar  2020 chown
+-rwxr-xr-x  1 root   wheel         31808 17 Mar  2020 chroot
+-rwxr-xr-x  1 root   wheel         64224 17 Mar  2020 ckksctl
+-rwxr-xr-x  1 root   wheel        128784 17 Mar  2020 coreaudiod
+-rwxr-xr-x  1 root   wheel         61152 17 Mar  2020 createhomedir
+-rwxr-xr-x  1 root   wheel         62176 17 Mar  2020 cron
+-r-xr-xr-x  1 root   wheel         36352 17 Mar  2020 cupsaccept
+-r-xr-xr-x  1 root   wheel         36480 17 Mar  2020 cupsctl
+-r-x------  1 root   wheel        448160 17 Mar  2020 cupsd
+lrwxr-xr-x  1 root   wheel            10 25 Aug 19:46 cupsdisable -> cupsaccept
+lrwxr-xr-x  1 root   wheel            10 25 Aug 19:46 cupsenable -> cupsaccept
+-r-xr-xr-x  1 root   wheel         62240 17 Mar  2020 cupsfilter
+lrwxr-xr-x  1 root   wheel            10 25 Aug 19:46 cupsreject -> cupsaccept
+lrwxr-xr-x  1 root   wheel            56 25 Aug 19:46 cvadmin -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvadmin
+lrwxr-xr-x  1 root   wheel            53 25 Aug 19:46 cvdb -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvdb
+lrwxr-xr-x  1 root   wheel            56 25 Aug 19:46 cvdbset -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvdbset
+lrwxr-xr-x  1 root   wheel            55 25 Aug 19:46 cvfsck -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvfsck
+lrwxr-xr-x  1 root   wheel            55 25 Aug 19:46 cvfsdb -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvfsdb
+lrwxr-xr-x  1 root   wheel            55 25 Aug 19:46 cvfsid -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvfsid
+lrwxr-xr-x  1 root   wheel            57 25 Aug 19:46 cvgather -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvgather
+lrwxr-xr-x  1 root   wheel            56 25 Aug 19:46 cvlabel -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvlabel
+lrwxr-xr-x  1 root   wheel            55 25 Aug 19:46 cvmkfs -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvmkfs
+lrwxr-xr-x  1 root   wheel            59 25 Aug 19:46 cvupdatefs -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvupdatefs
+lrwxr-xr-x  1 root   wheel            59 25 Aug 19:46 cvversions -> /System/Library/Filesystems/acfs.fs/Contents/bin/cvversions
+-rwxr-xr-x  1 root   wheel          8925 29 Feb  2020 dbmmanage
+-rwxr-xr-x  1 root   wheel       1722432 17 Mar  2020 ddns-confgen
+-r-xr-xr-x  1 root   wheel         31808 17 Mar  2020 dev_mkdb
+-rwxr-xr-x  1 root   wheel        532080 17 Mar  2020 disktool
+-rwxr-xr-x  1 root   wheel        532080 17 Mar  2020 diskutil
+-rwxr-xr-x  1 root   wheel        173552 17 Mar  2020 distnoted
+-r-xr-xr-x  1 root   wheel         46352 17 Mar  2020 dnctl
+-r-xr-xr-x  1 root   wheel         36160 17 Mar  2020 dot_clean
+-rwxr-xr-x  1 root   wheel         62400 17 Mar  2020 dsconfigad
+-rwxr-xr-x  1 root   wheel         41056 17 Mar  2020 dsconfigldap
+-rwxr-xr-x  1 root   wheel         54000 17 Mar  2020 dseditgroup
+-rwxr-xr-x  1 root   wheel         43200 17 Mar  2020 dsenableroot
+-rwxr-xr-x  1 root   wheel         58976 17 Mar  2020 dtrace
+-r-xr-xr-x  1 root   wheel         41808 17 Mar  2020 edquota
+-rw-r--r--  1 root   wheel          1055 29 Feb  2020 envvars
+-rw-r--r--  1 root   wheel          1055 29 Feb  2020 envvars-std
+-rwxr-xr-x  1 root   wheel         32400 17 Mar  2020 fcgistarter
+-r-xr-xr-x  1 root   wheel         54000 17 Mar  2020 fdisk
+-rwxr-xr-x  1 root   wheel         38688 17 Mar  2020 filecoordinationd
+-rwxr-xr-x  1 root   wheel         51584 17 Mar  2020 firmwarepasswd
+-rwxr-xr-x  1 root   wheel         54096 17 Mar  2020 gpt
+-rwxr-xr-x  1 root   wheel         31776 17 Mar  2020 graphicssession
+-r-xr-xr-x  1 root   wheel        103536 17 Mar  2020 gssd
+-rwxr-xr-x  1 root   wheel         46096 17 Mar  2020 hdik
+-rwxr-xr-x  1 root   wheel         56080 17 Mar  2020 htcacheclean
+-rwxr-xr-x  1 root   wheel         43008 17 Mar  2020 htdbm
+-rwxr-xr-x  1 root   wheel         32864 17 Mar  2020 htdigest
+-rwxr-xr-x  1 root   wheel         42496 17 Mar  2020 htpasswd
+-rwxr-xr-x  1 root   wheel        824944 17 Mar  2020 httpd
+-r-xr-xr-x  1 root   wheel          8952 29 Feb  2020 httpd-wrapper
+-rwxr-xr-x  1 root   wheel         32480 17 Mar  2020 httxt2dbm
+-rwxr-xr-x  1 root   wheel         95760 17 Mar  2020 installer
+-rwxr-xr-x  1 root   wheel         32416 17 Mar  2020 ioalloccount
+-rwxr-xr-x  1 root   wheel         45376 17 Mar  2020 ioclasscount
+-rwxr-xr-x  1 root   wheel         58544 17 Mar  2020 ioreg
+-rwxr-xr-x  1 root   wheel         42464 17 Mar  2020 iostat
+-rwxr-xr-x  1 root   wheel         89840 17 Mar  2020 ipconfig
+-rwxr-xr-x  1 root   wheel        514320 17 Mar  2020 kadmin
+-rwxr-xr-x  1 root   wheel          4662 29 Feb  2020 kadmin.local
+-rwxr-xr-x  1 root   wheel        124432 17 Mar  2020 kcditto
+-rwxr-xr-x  1 root   wheel         59840 17 Mar  2020 kdcsetup
+-rwxr-xr-x  1 root   wheel        480112 17 Mar  2020 kextcache
+-rwxr-xr-x  1 root   wheel         90960 17 Mar  2020 kextfind
+-rwxr-xr-x  1 root   wheel         43840 17 Mar  2020 kextlibs
+-rwxr-xr-x  1 root   wheel         39136 17 Mar  2020 kextstat
+-rwxr-xr-x  1 root   wheel          2154  5 Mar  2020 klist_cdhashes
+-rwxr-xr-x  1 root   wheel         70608 17 Mar  2020 krbservicesetup
+-rwxr-xr-x  1 root   wheel        127536 17 Mar  2020 ktutil
+-rwxr-xr-x  1 root   wheel         37184 17 Mar  2020 languagesetup
+-rwxr-xr-x  1 root   wheel         40832 17 Mar  2020 localemanager
+-rwxr-xr-x  1 root   wheel         33088 17 Mar  2020 logresolve
+-r-xr-xr-x  1 root   wheel         51632 17 Mar  2020 lpadmin
+-r-xr-xr-x  1 root   wheel         36416 17 Mar  2020 lpc
+-r-xr-xr-x  1 root   wheel         36224 17 Mar  2020 lpinfo
+-r-xr-xr-x  1 root   wheel         32656 17 Mar  2020 lpmove
+-rwxr-xr-x  1 root   wheel        127328 17 Mar  2020 lsof
+-rwxr-xr-x  1 root   wheel        840992 17 Mar  2020 mDNSResponder
+-rwxr-xr-x  1 root   wheel         81936 17 Mar  2020 mDNSResponderHelper
+-rwxr-xr-x  1 root   wheel         49168 17 Mar  2020 mkextunpack
+-rwxr-xr-x  1 root   wheel         31792 17 Mar  2020 mkfile
+-rwxr-xr-x  1 root   wheel        136624 17 Mar  2020 mkpassdb
+-rwxr-xr-x  1 root   wheel         69728 17 Mar  2020 mtree
+-r-xr-xr-x  1 root   wheel         50016 17 Mar  2020 ndp
+-rwxr-xr-x  1 root   wheel        440368 17 Mar  2020 netbiosd
+-r-xr-xr-x  1 root   wheel        159136 17 Mar  2020 netstat
+-rwxr-xr-x  1 root   wheel        208864 17 Mar  2020 networksetup
+-rwxr-xr-x  1 root   wheel         59856 17 Mar  2020 newsyslog
+-rwxr-xr-x  1 root   wheel         31760 17 Mar  2020 nfs4mapid
+-rwxr-xr-x  1 root   wheel        346032 17 Mar  2020 nlcontrol
+-rwxr-xr-x  1 root   wheel         88976 17 Mar  2020 notifyd
+-rwxr-xr-x  1 root   wheel         43424 17 Mar  2020 nvram
+-rwxr-xr-x  1 root   wheel        168352 17 Mar  2020 ocspd
+-rwxr-xr-x  1 root   wheel         69584 17 Mar  2020 otctl
+-rwxr-xr-x  1 root   wheel         75376 17 Mar  2020 pdisk
+-rwxr-xr-x  1 root   wheel          3144 29 Feb  2020 periodic
+-rwxr-xr-x  1 root   wheel      14154592 17 Mar  2020 php-fpm
+-rwxr-xr-x  1 root   wheel         78688 17 Mar  2020 pkgutil
+-rwxr-xr-x  1 root   wheel        252704 17 Mar  2020 postalias
+-rwxr-xr-x  1 root   wheel        201712 17 Mar  2020 postcat
+-rwxr-xr-x  1 root   wheel        376448 17 Mar  2020 postconf
+-rwxr-sr-x  1 root   _postdrop    262864 17 Mar  2020 postdrop
+-rwxr-xr-x  1 root   wheel        191888 17 Mar  2020 postfix
+-rwxr-xr-x  1 root   wheel        191984 17 Mar  2020 postkick
+-rwxr-xr-x  1 root   wheel        196928 17 Mar  2020 postlock
+-rwxr-xr-x  1 root   wheel        187696 17 Mar  2020 postlog
+-rwxr-xr-x  1 root   wheel        256032 17 Mar  2020 postmap
+-rwxr-xr-x  1 root   wheel        201216 17 Mar  2020 postmulti
+-rwxr-sr-x  1 root   _postdrop    262720 17 Mar  2020 postqueue
+-rwxr-xr-x  1 root   wheel        206304 17 Mar  2020 postsuper
+-r-xr-xr-x  1 root   wheel        347408 17 Mar  2020 pppd
+-rwxr-xr-x  1 root   wheel         31984 17 Mar  2020 praudit
+-rwxr-xr-x  1 root   wheel         30992 17 Mar  2020 purge
+-rwxr-xr-x  1 root   wheel         41536 17 Mar  2020 pwd_mkdb
+-r-xr-xr-x  1 root   wheel         31600 17 Mar  2020 quotaoff
+-r-xr-xr-x  1 root   wheel         31600 17 Mar  2020 quotaon
+-r-xr-xr-x  1 root   wheel        684352 17 Mar  2020 racoon
+-r-xr-xr-x  1 root   wheel         37648 17 Mar  2020 rarpd
+-rwxr-xr-x  1 root   wheel         32128 17 Mar  2020 repairHomePermissions
+-r-xr-xr-x  1 root   wheel         36320 17 Mar  2020 repquota
+-rwxr-xr-x  1 root   wheel         42384 17 Mar  2020 rotatelogs
+-rwxr-xr-x  1 root   wheel         96480 17 Mar  2020 rpc.lockd
+-rwxr-xr-x  1 root   wheel         62048 17 Mar  2020 rpc.statd
+-rwxr-xr-x  1 root   wheel         64560 17 Mar  2020 rpcbind
+-rwxr-xr-x  1 root   wheel         51296 17 Mar  2020 rpcinfo
+-r-xr-xr-x  1 root   wheel         72016 17 Mar  2020 rtadvd
+-r-xr-xr-x  1 root   wheel         46016 17 Mar  2020 rtsold
+-rwxr-xr-x  1 root   wheel         44928 17 Mar  2020 sa
+-rwxr-xr-x  1 root   wheel          7996 29 Feb  2020 sc_auth
+-rwxr-xr-x  1 root   wheel        834192 17 Mar  2020 screencapture
+-rwxr-xr-x  1 root   wheel         37840 17 Mar  2020 scselect
+-rwxr-xr-x  1 root   wheel        246384 17 Mar  2020 scutil
+-rwxr-xr-x  1 root   wheel        904112 17 Mar  2020 securityd
+-rwxr-xr-x  1 root   wheel        253728 17 Mar  2020 sendmail
+lrwxr-xr-x  1 root   wheel            93 25 Aug 19:46 serverinfo -> /System/Library/PrivateFrameworks/ServerInformation.framework/Versions/A/Resources/serverinfo
+-r-xr-xr-x  1 root   wheel         89248 17 Mar  2020 setkey
+-rwxr-xr-x  1 root   wheel         36896 17 Mar  2020 setquota
+-rwxr-xr-x  1 root   wheel         42688 17 Mar  2020 sharing
+-rwxr-xr-x  1 root   wheel        131344 17 Mar  2020 skywalkctl
+lrwxr-xr-x  1 root   wheel            16 25 Aug 19:46 slapacl -> ../libexec/slapd
+lrwxr-xr-x  1 root   wheel            16 25 Aug 19:46 slapadd -> ../libexec/slapd
+lrwxr-xr-x  1 root   wheel            16 25 Aug 19:46 slapauth -> ../libexec/slapd
+lrwxr-xr-x  1 root   wheel            16 25 Aug 19:46 slapcat -> ../libexec/slapd
+-rwxr-xr-x  1 root   wheel        567536 17 Mar  2020 slapconfig
+lrwxr-xr-x  1 root   wheel            16 25 Aug 19:46 slapdn -> ../libexec/slapd
+lrwxr-xr-x  1 root   wheel            16 25 Aug 19:46 slapindex -> ../libexec/slapd
+lrwxr-xr-x  1 root   wheel            16 25 Aug 19:46 slappasswd -> ../libexec/slapd
+lrwxr-xr-x  1 root   wheel            16 25 Aug 19:46 slapschema -> ../libexec/slapd
+lrwxr-xr-x  1 root   wheel            16 25 Aug 19:46 slaptest -> ../libexec/slapd
+-rwxr-xr-x  1 root   wheel        884112 17 Mar  2020 smbd
+-rwxr-xr-x  1 root   wheel          3110 29 Feb  2020 smbdiagnose
+lrwxr-xr-x  1 root   wheel            61 25 Aug 19:46 sncfginstall -> /System/Library/Filesystems/acfs.fs/Contents/bin/sncfginstall
+lrwxr-xr-x  1 root   wheel            59 25 Aug 19:46 sncfgquery -> /System/Library/Filesystems/acfs.fs/Contents/bin/sncfgquery
+lrwxr-xr-x  1 root   wheel            60 25 Aug 19:46 sncfgremove -> /System/Library/Filesystems/acfs.fs/Contents/bin/sncfgremove
+lrwxr-xr-x  1 root   wheel            62 25 Aug 19:46 sncfgtemplate -> /System/Library/Filesystems/acfs.fs/Contents/bin/sncfgtemplate
+lrwxr-xr-x  1 root   wheel            62 25 Aug 19:46 sncfgvalidate -> /System/Library/Filesystems/acfs.fs/Contents/bin/sncfgvalidate
+lrwxr-xr-x  1 root   wheel            59 25 Aug 19:46 sndiskmove -> /System/Library/Filesystems/acfs.fs/Contents/bin/sndiskmove
+-rwxr-xr-x  1 root   wheel           291 19 Dec  2019 snmpd
+-rwxr-xr-x  1 root   wheel         50912 17 Mar  2020 snmptrapd
+-rwxr-xr-x  1 root   wheel        111936 17 Mar  2020 softwareupdate
+-rwxr-xr-x  1 root   wheel         84800 17 Mar  2020 spctl
+-rwxr-xr-x  1 root   wheel        347824 17 Mar  2020 spindump
+-r-xr-xr-x  1 root   wheel         31760 17 Mar  2020 spray
+-rwxr-xr-x  1 root   wheel       2189040 17 Mar  2020 sshd
+-rwxr-xr-x  1 root   wheel        109712 17 Mar  2020 sso_util
+-rwxr-xr-x  1 root   wheel         70928 17 Mar  2020 sysadminctl
+-rwxr-xr-x  1 root   wheel         41104 17 Mar  2020 sysctl
+-rwxr-xr-x  1 root   wheel        148016 17 Mar  2020 syslogd
+-rwxr-xr-x  1 root   wheel         59280 17 Mar  2020 system_profiler
+-rwxr-xr-x  1 root   wheel        126208 17 Mar  2020 systemkeychain
+-rwxr-xr-x  1 root   wheel        133552 17 Mar  2020 systemsetup
+-rwxr-xr-x  1 root   wheel        123744 17 Mar  2020 systemsoundserverd
+-rwxr-xr-x  1 root   wheel       1560816 17 Mar  2020 systemstats
+-rwxr-xr-x  1 root   wheel         36864 17 Mar  2020 taskpolicy
+-rwxr-xr-x  1 root   wheel        899536 17 Mar  2020 tcpdump
+-rwxr-xr-x  1 root   wheel        816928 17 Mar  2020 tpctl
+-r-sr-xr-x  1 root   wheel         51536 17 Mar  2020 traceroute
+-r-sr-xr-x  1 root   wheel         46976 17 Mar  2020 traceroute6
+lrwxr-xr-x  1 root   wheel            12 25 Aug 19:46 tsig-keygen -> ddns-confgen
+-rwxr-xr-x  1 root   wheel         47344 17 Mar  2020 uasysdiagnose
+-rwxr-xr-x  1 root   wheel         43648 17 Mar  2020 universalaccessd
+-rwxr-xr-x  1 root   wheel         37072 17 Mar  2020 unsetpassword
+-rwxr-xr-x  1 root   wheel       1701232 17 Mar  2020 usernoted
+-rwxr-xr-x  1 root   wheel         85376 17 Mar  2020 uuchk
+-r-xr-xr-x  1 _uucp  wheel        250192 17 Mar  2020 uucico
+-rwxr-xr-x  1 root   wheel        101968 17 Mar  2020 uuconv
+-rwxr-xr-x  1 root   wheel           315 29 Feb  2020 uusched
+-r-xr-xr-x  1 _uucp  wheel        124368 17 Mar  2020 uuxqt
+-rwxr-xr-x  1 root   wheel         31776 17 Mar  2020 vifs
+-rwxr-xr-x  1 root   wheel         36976 17 Mar  2020 vipw
+---x--x--x  1 root   wheel        238032 17 Mar  2020 visudo
+-r-xr-xr-x  1 root   wheel        138912 17 Mar  2020 vpnd
+-r-xr-xr-x  1 root   wheel         41392 17 Mar  2020 vsdbutil
+lrwxr-xr-x  1 root   wheel            25 25 Aug 19:46 weakpass_edit -> authserver/tools/weakpass
+-rwxr-xr-x  1 root   wheel         91760 17 Mar  2020 wfsctl
+-rwxr-xr-x  1 root   wheel         43280 17 Mar  2020 xartutil
+lrwxr-xr-x  1 root   wheel            56 25 Aug 19:46 xsanctl -> /System/Library/Filesystems/acfs.fs/Contents/bin/xsanctl
+-rwxr-xr-x  1 root   wheel        106432 17 Mar  2020 xscertadmin
+-rwxr-xr-x  1 root   wheel         36160 17 Mar  2020 zdump
+-rwxr-xr-x  1 root   wheel         62576 17 Mar  2020 zic
